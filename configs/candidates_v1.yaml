@@ -1,0 +1,16 @@
+# DS-2 candidate-seed settings. NOT part of the locked spec; values marked (assistant) are proposals not yet confirmed by the team.
+
+seed: 42
+scale_m: 30
+min_treecover2000_pct: 30   # (assistant)
+pools:
+  LOSS_POST2020:
+    n_points: 180
+    covers: [G1, G3]
+  G2_EXISTING_CROPLAND:
+    n_points: 90
+  G4_INTACT_FOREST:
+    n_points: 90
+loss_years: [21, 25]        # Hansen lossyear range = 2021-2025
+g4_no_loss_since: 15        # no Hansen loss in 2015-2025
+radd_min_date_yydoy: 21001

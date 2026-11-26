@@ -1,0 +1,16 @@
+# Earth Engine dataset asset IDs (see README.md)
+
+s2_sr_harmonized: "COPERNICUS/S2_SR_HARMONIZED"
+cloud_score_plus: "GOOGLE/CLOUD_SCORE_PLUS/V1/S2_HARMONIZED"
+s1_grd: "COPERNICUS/S1_GRD"
+landsat_8: "LANDSAT/LC08/C02/T1_L2"
+landsat_9: "LANDSAT/LC09/C02/T1_L2"
+srtm: "USGS/SRTMGL1_003"
+jrc_gfc_2020: "JRC/GFC2020/V4"
+
+hansen_gfc: "UMD/hansen/global_forest_change_2025_v1_13"
+esa_worldcover_2020: "ESA/WorldCover/v100"
+esa_worldcover_2021: "ESA/WorldCover/v200"
+radd: "projects/radar-wur/raddalert/v1"
+admin_boundaries: "FAO/GAUL/2015/level2"
+ldd_land_use: null  # not in GEE catalog; needs download from LDD (unconfirmed)

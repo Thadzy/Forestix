@@ -1,0 +1,6193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Forestix DS-3 train candidates</name>
+    <Style id="style-LOSS">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="style-G2">
+      <IconStyle>
+        <color>ff00ffff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="style-G4">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>drawn</name>
+      <description>Put your polygons here. Name each polygon with the pin's candidate_id; use SKIP-&lt;id&gt; for rejected pins.</description>
+    </Folder>
+    <Folder>
+      <name>LOSS_POST2020 (G1+G3)</name>
+      <Folder>
+        <name>Mae Charim</name>
+        <Placemark>
+          <name>LOSS-MC-001</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 59
+lon/lat: 101.026917, 18.819211</description>
+          <Point>
+            <coordinates>101.02691738758432,18.81921112889771,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-002</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2021-06-07
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 90
+lon/lat: 101.193196, 18.618977</description>
+          <Point>
+            <coordinates>101.19319554667484,18.61897665206747,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-003</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 79
+lon/lat: 101.213677, 18.713300</description>
+          <Point>
+            <coordinates>101.21367713515276,18.71329975690002,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-004</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 23439
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 95
+lon/lat: 101.102376, 18.614934</description>
+          <Point>
+            <coordinates>101.10237587145035,18.61493423328893,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-005</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2024-09-13
+jrc_forest2020: 1
+wc2020: 30
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.091327, 18.565347</description>
+          <Point>
+            <coordinates>101.09132659345568,18.565347229605536,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-006</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 60
+lon/lat: 101.216372, 18.728391</description>
+          <Point>
+            <coordinates>101.21637208100512,18.72839145367323,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-007</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2025-01-11
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.135254, 18.619516</description>
+          <Point>
+            <coordinates>101.13525421084913,18.619515641237943,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-008</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 30
+treecover2000: 45
+lon/lat: 100.992153, 18.639458</description>
+          <Point>
+            <coordinates>100.99215258608889,18.639458240545395,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-009</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 64
+lon/lat: 100.994309, 18.790914</description>
+          <Point>
+            <coordinates>100.99430854277077,18.790914197447947,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-010</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 30
+wc2021: 10
+treecover2000: 79
+lon/lat: 101.002663, 18.791723</description>
+          <Point>
+            <coordinates>101.00266287491309,18.791722681203655,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-011</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 30
+treecover2000: 68
+lon/lat: 101.238471, 18.781482</description>
+          <Point>
+            <coordinates>101.23847063699446,18.78148188696469,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-012</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 30
+treecover2000: 44
+lon/lat: 101.217989, 18.714647</description>
+          <Point>
+            <coordinates>101.21798904851653,18.7146472298262,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-013</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 33
+lon/lat: 100.956579, 18.614934</description>
+          <Point>
+            <coordinates>100.95657930083776,18.61493423328893,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-014</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2025-01-11
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 92
+lon/lat: 101.095100, 18.554028</description>
+          <Point>
+            <coordinates>101.09509951764899,18.554028457025627,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-015</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 83
+lon/lat: 101.227152, 18.713030</description>
+          <Point>
+            <coordinates>101.22715186441455,18.713030262314785,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-016</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 67
+lon/lat: 101.019641, 18.841849</description>
+          <Point>
+            <coordinates>101.01964103378295,18.841848674057523,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-017</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 30
+wc2021: 30
+treecover2000: 47
+lon/lat: 101.240896, 18.780134</description>
+          <Point>
+            <coordinates>101.24089608826158,18.78013441403851,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-018</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 23425
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 84
+lon/lat: 101.242783, 18.796304</description>
+          <Point>
+            <coordinates>101.24278255035823,18.796304089152663,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-019</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2023-11-27
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 75
+lon/lat: 101.152771, 18.733512</description>
+          <Point>
+            <coordinates>101.15277135888945,18.73351185079271,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-020</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 67
+lon/lat: 101.039045, 18.846700</description>
+          <Point>
+            <coordinates>101.03904464391992,18.846699576591767,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-021</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2023-03-26
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 101.130942, 18.588524</description>
+          <Point>
+            <coordinates>101.13094229748535,18.588523763935818,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-022</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 67
+lon/lat: 100.997542, 18.798460</description>
+          <Point>
+            <coordinates>100.9975424777936,18.79846004583455,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-023</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 64
+lon/lat: 101.017755, 18.777978</description>
+          <Point>
+            <coordinates>101.0177545716863,18.777978457356625,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-024</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2025-01-08
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.167324, 18.576935</description>
+          <Point>
+            <coordinates>101.1673240664922,18.576935496770677,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-025</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2024-06-06
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 86
+lon/lat: 101.228499, 18.832147</description>
+          <Point>
+            <coordinates>101.22849933734074,18.83214686898903,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-026</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 30
+wc2021: 10
+treecover2000: 45
+lon/lat: 101.230655, 18.782560</description>
+          <Point>
+            <coordinates>101.23065529402263,18.782559865305636,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-027</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 30
+wc2021: 40
+treecover2000: 58
+lon/lat: 101.225804, 18.758305</description>
+          <Point>
+            <coordinates>101.22580439148838,18.75830535263441,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-028</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2023-04-16
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 87
+lon/lat: 101.098064, 18.550525</description>
+          <Point>
+            <coordinates>101.09806395808658,18.550525027417564,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-029</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2024-10-31
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 90
+lon/lat: 101.102915, 18.592027</description>
+          <Point>
+            <coordinates>101.10291486062083,18.592027193543885,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-030</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 66
+lon/lat: 101.028804, 18.822445</description>
+          <Point>
+            <coordinates>101.02880384968097,18.82244506392054,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-031</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 30
+treecover2000: 31
+lon/lat: 101.213138, 18.718151</description>
+          <Point>
+            <coordinates>101.21313814598228,18.718150659434265,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-032</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 22930
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 90
+lon/lat: 101.175139, 18.563730</description>
+          <Point>
+            <coordinates>101.17513940946404,18.56373026209412,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-033</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 54
+lon/lat: 100.992153, 18.668025</description>
+          <Point>
+            <coordinates>100.99215258608889,18.668024666580397,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-034</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 53
+lon/lat: 100.973557, 18.639997</description>
+          <Point>
+            <coordinates>100.9735574597076,18.639997229715867,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-035</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2026-03-07
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 94
+lon/lat: 101.244939, 18.817055</description>
+          <Point>
+            <coordinates>101.24493850704012,18.817055172215824,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-036</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2024-12-06
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.126091, 18.646196</description>
+          <Point>
+            <coordinates>101.1260913949511,18.646195605176292,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-037</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 40
+lon/lat: 101.203975, 18.745909</description>
+          <Point>
+            <coordinates>101.20397533008428,18.74590860171356,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-038</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2026-03-31
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 83
+lon/lat: 101.165977, 18.816786</description>
+          <Point>
+            <coordinates>101.16597659356601,18.816785677630588,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-039</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 56
+lon/lat: 101.012095, 18.837806</description>
+          <Point>
+            <coordinates>101.01209518539635,18.837806255278984,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-040</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2024-10-31
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.106957, 18.619785</description>
+          <Point>
+            <coordinates>101.10695727939937,18.61978513582318,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-041</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 77
+lon/lat: 100.997273, 18.804658</description>
+          <Point>
+            <coordinates>100.99727298320836,18.804658421294974,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-042</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2024-12-18
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 87
+lon/lat: 101.054675, 18.727313</description>
+          <Point>
+            <coordinates>101.0546753298636,18.727313475332284,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-043</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2025-10-02
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 79
+lon/lat: 101.076774, 18.815708</description>
+          <Point>
+            <coordinates>101.07677388585294,18.815707699289646,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-044</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2023-04-04
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 101.057640, 18.808431</description>
+          <Point>
+            <coordinates>101.0576397703012,18.808431345488277,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-045</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 56
+lon/lat: 100.998620, 18.776361</description>
+          <Point>
+            <coordinates>100.99862045613455,18.77636148984521,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-046</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 58
+lon/lat: 101.211521, 18.709257</description>
+          <Point>
+            <coordinates>101.21152117847087,18.709257338121482,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-047</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2023-03-20
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 100.990266, 18.816786</description>
+          <Point>
+            <coordinates>100.99026612399224,18.816785677630588,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-048</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2026-01-28
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 89
+lon/lat: 101.175948, 18.646735</description>
+          <Point>
+            <coordinates>101.17594789321974,18.646734594346764,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-049</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 48
+lon/lat: 100.994039, 18.803311</description>
+          <Point>
+            <coordinates>100.99403904818554,18.803310948368797,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-050</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 60
+wc2021: 30
+treecover2000: 31
+lon/lat: 101.210713, 18.751837</description>
+          <Point>
+            <coordinates>101.21071269471517,18.751837482588748,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-051</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2024-12-30
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 89
+lon/lat: 101.230655, 18.631912</description>
+          <Point>
+            <coordinates>101.23065529402263,18.631912392158792,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-052</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 64
+lon/lat: 100.991883, 18.668294</description>
+          <Point>
+            <coordinates>100.99188309150365,18.668294161165633,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-053</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 45
+lon/lat: 101.037428, 18.826757</description>
+          <Point>
+            <coordinates>101.03742767640851,18.826756977284315,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-054</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 101.004819, 18.775284</description>
+          <Point>
+            <coordinates>101.00481883159497,18.775283511504266,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-055</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 61
+lon/lat: 101.016138, 18.806275</description>
+          <Point>
+            <coordinates>101.01613760417487,18.80627538880639,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-056</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2026-03-31
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 90
+lon/lat: 101.232811, 18.693627</description>
+          <Point>
+            <coordinates>101.2328112507045,18.6936266521778,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-057</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.238471, 18.767738</description>
+          <Point>
+            <coordinates>101.23847063699446,18.767737663117664,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-058</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2024-11-24
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 100
+lon/lat: 101.163821, 18.723810</description>
+          <Point>
+            <coordinates>101.16382063688413,18.723810045724218,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-059</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 30
+wc2021: 10
+treecover2000: 71
+lon/lat: 101.215294, 18.761539</description>
+          <Point>
+            <coordinates>101.21529410266417,18.76153928765724,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-MC-060</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Mae Charim
+seed_source: radd
+lossyear: none
+radd_date: 2025-01-11
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.209904, 18.628678</description>
+          <Point>
+            <coordinates>101.20990421095946,18.628678457135962,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Pua</name>
+        <Placemark>
+          <name>LOSS-PUA-001</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 76
+lon/lat: 101.084859, 19.019176</description>
+          <Point>
+            <coordinates>101.08485872341002,19.019176111142716,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-002</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 76
+lon/lat: 101.016677, 19.214560</description>
+          <Point>
+            <coordinates>101.01667659334535,19.21455968543871,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-003</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 101.037158, 19.278160</description>
+          <Point>
+            <coordinates>101.03715818182327,19.278160407554374,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-004</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 49
+lon/lat: 100.997273, 19.290018</description>
+          <Point>
+            <coordinates>100.99727298320836,19.29001816930475,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-005</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 30
+treecover2000: 82
+lon/lat: 101.078391, 19.033190</description>
+          <Point>
+            <coordinates>101.07839085336437,19.03318982957498,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-006</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 45
+lon/lat: 101.012634, 19.141257</description>
+          <Point>
+            <coordinates>101.01263417456681,19.14125715825456,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-007</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 66
+lon/lat: 100.915077, 19.112152</description>
+          <Point>
+            <coordinates>100.91507713471144,19.112151743049086,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-008</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 78
+lon/lat: 101.029882, 19.257948</description>
+          <Point>
+            <coordinates>101.02988182802191,19.257948313661686,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-009</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 76
+lon/lat: 101.100759, 19.218333</description>
+          <Point>
+            <coordinates>101.10075890393894,19.218332609632014,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-010</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 70
+lon/lat: 101.121779, 19.160930</description>
+          <Point>
+            <coordinates>101.12177948158734,19.160930262976777,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-011</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 72
+lon/lat: 101.093213, 19.040197</description>
+          <Point>
+            <coordinates>101.09321305555234,19.040196688791113,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-012</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 95
+lon/lat: 101.114773, 19.284359</description>
+          <Point>
+            <coordinates>101.1147726223712,19.2843587830148,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-013</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 84
+lon/lat: 101.065994, 19.281125</description>
+          <Point>
+            <coordinates>101.06599410244351,19.28112484799197,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-014</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.026648, 19.227226</description>
+          <Point>
+            <coordinates>101.02664789299908,19.227225930944797,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-015</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 54
+lon/lat: 100.997542, 19.281125</description>
+          <Point>
+            <coordinates>100.9975424777936,19.28112484799197,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-016</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 0
+wc2020: 30
+wc2021: 30
+treecover2000: 59
+lon/lat: 100.979486, 19.269267</description>
+          <Point>
+            <coordinates>100.9794863405828,19.26926708624159,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-017</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 30
+treecover2000: 49
+lon/lat: 101.027187, 19.204588</description>
+          <Point>
+            <coordinates>101.02718688216954,19.204588385784987,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-018</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 74
+lon/lat: 101.060604, 19.202432</description>
+          <Point>
+            <coordinates>101.06060421073879,19.202432429103098,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-019</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 63
+lon/lat: 101.006166, 19.135059</description>
+          <Point>
+            <coordinates>101.00616630452116,19.135058782794136,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-020</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 30
+wc2021: 10
+treecover2000: 92
+lon/lat: 101.033385, 19.242857</description>
+          <Point>
+            <coordinates>101.03338525762997,19.242856616888478,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-021</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 76
+lon/lat: 101.001315, 19.289210</description>
+          <Point>
+            <coordinates>101.0013154019869,19.289209685549046,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-022</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 0
+wc2020: 30
+wc2021: 30
+treecover2000: 75
+lon/lat: 101.036080, 19.228034</description>
+          <Point>
+            <coordinates>101.03608020348233,19.228034414700506,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-023</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 33
+lon/lat: 100.853363, 19.196504</description>
+          <Point>
+            <coordinates>100.85336287469242,19.19650354822791,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-024</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 30
+wc2021: 30
+treecover2000: 87
+lon/lat: 101.026109, 19.241240</description>
+          <Point>
+            <coordinates>101.0261089038286,19.24123964937706,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-025</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 76
+lon/lat: 101.078391, 19.030764</description>
+          <Point>
+            <coordinates>101.07839085336437,19.030764378307857,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-026</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.069228, 19.012169</description>
+          <Point>
+            <coordinates>101.06922803746635,19.012169251926583,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-027</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 89
+lon/lat: 101.062760, 19.213482</description>
+          <Point>
+            <coordinates>101.06276016742068,19.21348170709777,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-028</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 30
+treecover2000: 55
+lon/lat: 100.831534, 19.216177</description>
+          <Point>
+            <coordinates>100.83153381328832,19.21617665295013,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-029</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 44
+lon/lat: 100.928552, 19.239353</description>
+          <Point>
+            <coordinates>100.92855186397323,19.23935318728041,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-030</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 57
+lon/lat: 100.982451, 19.238545</description>
+          <Point>
+            <coordinates>100.98245078102039,19.238544703524703,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-031</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 81
+lon/lat: 101.063569, 19.277891</description>
+          <Point>
+            <coordinates>101.0635686511764,19.277890912969138,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-032</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 58
+lon/lat: 100.880312, 19.143683</description>
+          <Point>
+            <coordinates>100.88031233321601,19.143682609521683,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-033</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 87
+lon/lat: 101.054406, 19.251750</description>
+          <Point>
+            <coordinates>101.05440583527837,19.25174993820126,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-034</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 86
+lon/lat: 101.063299, 19.259565</description>
+          <Point>
+            <coordinates>101.06329915659116,19.2595652811731,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-035</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 78
+lon/lat: 101.107766, 19.056636</description>
+          <Point>
+            <coordinates>101.10776576315507,19.056635858490502,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-036</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 88
+lon/lat: 101.087284, 19.045048</description>
+          <Point>
+            <coordinates>101.08728417467715,19.04504759132536,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-037</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 89
+lon/lat: 100.810783, 19.189227</description>
+          <Point>
+            <coordinates>100.81078273022516,19.189227194426543,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-038</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 76
+lon/lat: 101.033385, 19.207553</description>
+          <Point>
+            <coordinates>101.03338525762997,19.20755282622258,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-039</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 76
+lon/lat: 101.099411, 19.218333</description>
+          <Point>
+            <coordinates>101.09941143101275,19.218332609632014,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-040</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 79
+lon/lat: 100.996464, 19.214290</description>
+          <Point>
+            <coordinates>100.99646449945266,19.214290190853475,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-041</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 71
+lon/lat: 101.112886, 19.249863</description>
+          <Point>
+            <coordinates>101.11288616027456,19.24986347610461,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-042</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.023953, 19.215638</description>
+          <Point>
+            <coordinates>101.02395294714673,19.215637663779656,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-043</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 83
+lon/lat: 101.055484, 19.223992</description>
+          <Point>
+            <coordinates>101.05548381361932,19.223991995921967,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-044</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.102645, 19.029147</description>
+          <Point>
+            <coordinates>101.10264536603559,19.029147410796444,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-045</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 30
+wc2021: 30
+treecover2000: 67
+lon/lat: 101.009939, 19.276813</description>
+          <Point>
+            <coordinates>101.00993922871446,19.276812934628197,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-046</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 1
+wc2020: 30
+wc2021: 30
+treecover2000: 85
+lon/lat: 101.020180, 19.216446</description>
+          <Point>
+            <coordinates>101.02018002295341,19.216446147535365,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-047</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 67
+lon/lat: 100.888667, 19.139371</description>
+          <Point>
+            <coordinates>100.88866666535831,19.139370696157908,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-048</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 37
+lon/lat: 100.972479, 19.283011</description>
+          <Point>
+            <coordinates>100.97247948136668,19.28301131008862,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-049</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 30
+wc2021: 10
+treecover2000: 81
+lon/lat: 100.962778, 19.276543</description>
+          <Point>
+            <coordinates>100.96277767629817,19.27654344004296,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-050</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 64
+lon/lat: 101.057640, 18.999234</description>
+          <Point>
+            <coordinates>101.0576397703012,18.999233511835264,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-051</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: radd
+lossyear: none
+radd_date: 2026-01-19
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 87
+lon/lat: 101.120432, 19.118889</description>
+          <Point>
+            <coordinates>101.12043200866115,19.118889107679983,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-052</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 30
+treecover2000: 76
+lon/lat: 100.908340, 19.232616</description>
+          <Point>
+            <coordinates>100.90833977008053,19.232615822649514,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-053</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 30
+wc2021: 30
+treecover2000: 54
+lon/lat: 101.046860, 19.182220</description>
+          <Point>
+            <coordinates>101.04685998689176,19.18222033521041,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-054</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 71
+lon/lat: 101.095908, 19.056636</description>
+          <Point>
+            <coordinates>101.0959080014047,19.056635858490502,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-055</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.030421, 19.259026</description>
+          <Point>
+            <coordinates>101.03042081719238,19.25902629200263,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-056</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 87
+lon/lat: 101.094830, 19.069572</description>
+          <Point>
+            <coordinates>101.09483002306375,19.06957159858182,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-057</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 56
+lon/lat: 101.099142, 19.044509</description>
+          <Point>
+            <coordinates>101.09914193642753,19.044508602154888,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-058</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 86
+lon/lat: 101.093213, 19.041814</description>
+          <Point>
+            <coordinates>101.09321305555234,19.04181365630253,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-059</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 74
+lon/lat: 100.897829, 19.152037</description>
+          <Point>
+            <coordinates>100.89782948125634,19.152036941663994,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-PUA-060</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Pua
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 79
+lon/lat: 101.074887, 18.998695</description>
+          <Point>
+            <coordinates>101.0748874237563,18.998694522664792,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Tha Wang Pha</name>
+        <Placemark>
+          <name>LOSS-TWP-001</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: both
+lossyear: 2022
+radd_date: 2023-02-24
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 74
+lon/lat: 100.630491, 19.247169</description>
+          <Point>
+            <coordinates>100.63049085270237,19.247168530252253,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-002</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 30
+treecover2000: 33
+lon/lat: 100.925048, 19.042083</description>
+          <Point>
+            <coordinates>100.92504843436515,19.042083150887766,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-003</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: both
+lossyear: 2025
+radd_date: 2025-11-04
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 87
+lon/lat: 100.655284, 19.217794</description>
+          <Point>
+            <coordinates>100.65528435454407,19.217793620461542,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-004</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: radd
+lossyear: none
+radd_date: 21378
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 100.593570, 19.059061</description>
+          <Point>
+            <coordinates>100.59357009452505,19.059061309757624,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-005</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: radd
+lossyear: none
+radd_date: 22633
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 100.638576, 19.231268</description>
+          <Point>
+            <coordinates>100.63857569025944,19.231268349723337,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-006</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 30
+treecover2000: 81
+lon/lat: 100.753919, 19.067955</description>
+          <Point>
+            <coordinates>100.75391937274038,19.067954631070407,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-007</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 70
+lon/lat: 100.898099, 19.112691</description>
+          <Point>
+            <coordinates>100.89809897584158,19.11269073221956,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-008</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 76
+lon/lat: 100.825335, 19.055827</description>
+          <Point>
+            <coordinates>100.82533543782789,19.055827374734793,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-009</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 72
+lon/lat: 100.757153, 19.063912</description>
+          <Point>
+            <coordinates>100.75715330776322,19.063912212291868,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-010</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 57
+lon/lat: 100.870072, 18.987106</description>
+          <Point>
+            <coordinates>100.87007153897704,18.98710625549965,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-011</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 64
+lon/lat: 100.854980, 19.010552</description>
+          <Point>
+            <coordinates>100.85497984220383,19.01055228441517,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-012</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 100.728317, 19.140988</description>
+          <Point>
+            <coordinates>100.72831738714298,19.140987663669325,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-013</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 38
+lon/lat: 100.667951, 19.202702</description>
+          <Point>
+            <coordinates>100.66795060005015,19.202701923688334,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-014</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 45
+lon/lat: 100.775479, 19.122662</description>
+          <Point>
+            <coordinates>100.77547893955926,19.122662031873286,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-015</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: both
+lossyear: 2024
+radd_date: 2025-02-01
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 86
+lon/lat: 100.656362, 19.217524</description>
+          <Point>
+            <coordinates>100.65636233288501,19.217524125876306,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-016</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 58
+lon/lat: 100.759040, 19.081968</description>
+          <Point>
+            <coordinates>100.75903976985987,19.08196834950267,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-017</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: radd
+lossyear: none
+radd_date: 2023-12-24
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 91
+lon/lat: 100.594918, 19.071458</description>
+          <Point>
+            <coordinates>100.59491756745123,19.071458060678474,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-018</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: radd
+lossyear: none
+radd_date: 2025-02-01
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 76
+lon/lat: 100.652589, 19.198660</description>
+          <Point>
+            <coordinates>100.65258940869171,19.1986595049098,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-019</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 56
+lon/lat: 100.810244, 19.095713</description>
+          <Point>
+            <coordinates>100.81024374105469,19.0957125733497,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-020</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 100.662291, 19.096521</description>
+          <Point>
+            <coordinates>100.6622912137602,19.096521057105406,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-021</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: radd
+lossyear: none
+radd_date: 2025-01-08
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 100
+lon/lat: 100.624292, 19.271693</description>
+          <Point>
+            <coordinates>100.62429247724194,19.271692537508713,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-022</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 72
+lon/lat: 100.642888, 19.074153</description>
+          <Point>
+            <coordinates>100.64288760362322,19.074153006530832,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-023</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 30
+treecover2000: 45
+lon/lat: 100.784372, 19.198390</description>
+          <Point>
+            <coordinates>100.78437226087205,19.198390010324562,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-024</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 59
+lon/lat: 100.817790, 19.022680</description>
+          <Point>
+            <coordinates>100.81778958944129,19.022679540750783,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-025</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 81
+lon/lat: 100.857944, 19.122932</description>
+          <Point>
+            <coordinates>100.85794428264143,19.122931526458522,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-026</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 81
+lon/lat: 100.906992, 19.022680</description>
+          <Point>
+            <coordinates>100.90699229715436,19.022679540750783,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-027</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: both
+lossyear: 2023
+radd_date: 2024-02-07
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 59
+lon/lat: 100.652589, 19.228843</description>
+          <Point>
+            <coordinates>100.65258940869171,19.228842898456215,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-028</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 91
+lon/lat: 100.659866, 19.076578</description>
+          <Point>
+            <coordinates>100.65986576249307,19.076578457797954,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-029</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 62
+lon/lat: 100.721041, 19.047204</description>
+          <Point>
+            <coordinates>100.72104103334162,19.047203548007246,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-030</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 58
+lon/lat: 100.822910, 19.015673</description>
+          <Point>
+            <coordinates>100.82290998656077,19.01567268153465,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-031</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 68
+lon/lat: 100.871419, 19.119159</description>
+          <Point>
+            <coordinates>100.87141901190323,19.11915860226522,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-032</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: both
+lossyear: 2025
+radd_date: 2025-12-10
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 100
+lon/lat: 100.654745, 19.246899</description>
+          <Point>
+            <coordinates>100.6547453653736,19.246899035667017,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-033</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 55
+lon/lat: 100.723466, 19.119967</description>
+          <Point>
+            <coordinates>100.72346648460874,19.119967086020928,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-034</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 30
+lon/lat: 100.661752, 19.094365</description>
+          <Point>
+            <coordinates>100.66175222458973,19.09436510042352,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-035</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 100.646661, 19.264416</description>
+          <Point>
+            <coordinates>100.64666052781652,19.264416183707347,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-036</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 30
+wc2021: 30
+treecover2000: 41
+lon/lat: 100.891362, 18.999773</description>
+          <Point>
+            <coordinates>100.89136161121068,18.999772501005737,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-037</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 63
+lon/lat: 100.653667, 19.201624</description>
+          <Point>
+            <coordinates>100.65366738703266,19.201623945347393,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-038</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 79
+lon/lat: 100.852824, 19.132094</description>
+          <Point>
+            <coordinates>100.85282388552194,19.13209434235654,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-039</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: radd
+lossyear: none
+radd_date: 2026-01-18
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 58
+lon/lat: 100.639654, 19.068494</description>
+          <Point>
+            <coordinates>100.63965366860039,19.06849362024088,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-040</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 100.720233, 19.255792</description>
+          <Point>
+            <coordinates>100.7202325495859,19.2557923569798,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-041</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 58
+lon/lat: 100.659057, 19.250402</description>
+          <Point>
+            <coordinates>100.65905727873736,19.25040246527508,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-042</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 40
+lon/lat: 100.884894, 19.023758</description>
+          <Point>
+            <coordinates>100.88489374116502,19.023757519091728,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-043</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2021
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 55
+lon/lat: 100.736402, 19.124279</description>
+          <Point>
+            <coordinates>100.73640222470006,19.1242789993847,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-044</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 77
+lon/lat: 100.745835, 19.036154</description>
+          <Point>
+            <coordinates>100.74583453518332,19.036154270012577,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-045</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 64
+lon/lat: 100.865221, 19.003545</description>
+          <Point>
+            <coordinates>100.8652206364428,19.003545425199036,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-046</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 74
+lon/lat: 100.740445, 19.146917</description>
+          <Point>
+            <coordinates>100.7404446434786,19.146916544544514,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-047</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 62
+lon/lat: 100.748260, 19.117811</description>
+          <Point>
+            <coordinates>100.74825998645044,19.11781112933904,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-048</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 83
+lon/lat: 100.859292, 18.986298</description>
+          <Point>
+            <coordinates>100.85929175556761,18.986297771743942,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-049</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 100.812400, 19.026183</description>
+          <Point>
+            <coordinates>100.81239969773657,19.02618297035885,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-050</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 79
+lon/lat: 100.908879, 19.025913</description>
+          <Point>
+            <coordinates>100.90887875925101,19.025913475773613,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-051</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 93
+lon/lat: 100.745565, 19.088436</description>
+          <Point>
+            <coordinates>100.74556504059808,19.08843621954833,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-052</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 30
+lon/lat: 100.657440, 19.195426</description>
+          <Point>
+            <coordinates>100.65744031122595,19.195425569886968,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-053</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 75
+lon/lat: 100.843931, 19.032920</description>
+          <Point>
+            <coordinates>100.84393056420916,19.032920334989747,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-054</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 75
+lon/lat: 100.655284, 19.267111</description>
+          <Point>
+            <coordinates>100.65528435454407,19.267111129559705,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-055</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 43
+lon/lat: 100.861178, 19.120237</description>
+          <Point>
+            <coordinates>100.86117821766426,19.120236580606164,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-056</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 54
+lon/lat: 100.832073, 19.138562</description>
+          <Point>
+            <coordinates>100.83207280245878,19.138562212402203,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-057</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2024
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 86
+lon/lat: 100.659866, 19.113230</description>
+          <Point>
+            <coordinates>100.65986576249307,19.11322972139003,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-058</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2023
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 45
+lon/lat: 100.648816, 19.215099</description>
+          <Point>
+            <coordinates>100.64881648449841,19.215098674609184,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-059</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2022
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 45
+lon/lat: 100.660405, 19.251480</description>
+          <Point>
+            <coordinates>100.66040475166355,19.251480443616025,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>LOSS-TWP-060</name>
+          <styleUrl>#style-LOSS</styleUrl>
+          <description>pool_name: LOSS_POST2020
+district: Tha Wang Pha
+seed_source: hansen
+lossyear: 2025
+radd_date: none
+jrc_forest2020: 0
+wc2020: 10
+wc2021: 10
+treecover2000: 54
+lon/lat: 100.837193, 19.104606</description>
+          <Point>
+            <coordinates>100.83719319957827,19.104605894662484,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>G2_EXISTING_CROPLAND</name>
+      <Folder>
+        <name>Mae Charim</name>
+        <Placemark>
+          <name>G2-MC-001</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.999698, 18.694435</description>
+          <Point>
+            <coordinates>100.99969843447549,18.69443513593351,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-002</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 101.160587, 18.679882</description>
+          <Point>
+            <coordinates>101.16058670186129,18.679882428330775,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-003</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.997542, 18.684194</description>
+          <Point>
+            <coordinates>100.9975424777936,18.684194341694546,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-004</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.996464, 18.686081</description>
+          <Point>
+            <coordinates>100.99646449945266,18.6860808037912,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-005</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: 2019
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 56
+lon/lat: 101.203167, 18.752107</description>
+          <Point>
+            <coordinates>101.20316684632856,18.752106977173984,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-006</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 101.006166, 18.730008</description>
+          <Point>
+            <coordinates>101.00616630452116,18.730008421184642,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-007</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 101.026109, 18.845352</description>
+          <Point>
+            <coordinates>101.0261089038286,18.84535210366559,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-008</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.955771, 18.690123</description>
+          <Point>
+            <coordinates>100.95577081708204,18.690123222569735,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-009</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 10
+treecover2000: 3
+lon/lat: 101.188614, 18.748065</description>
+          <Point>
+            <coordinates>101.18861413872582,18.748064558395445,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-010</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 21
+lon/lat: 101.055214, 18.653472</description>
+          <Point>
+            <coordinates>101.05521431903408,18.653471958977658,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-011</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 101.008861, 18.738902</description>
+          <Point>
+            <coordinates>101.00886125037351,18.738901742497426,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-012</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 30
+treecover2000: 0
+lon/lat: 100.955771, 18.649430</description>
+          <Point>
+            <coordinates>100.95577081708204,18.649429540199122,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-013</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 101.145764, 18.698208</description>
+          <Point>
+            <coordinates>101.14576449967332,18.698208060126813,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-014</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 10
+treecover2000: 0
+lon/lat: 101.009400, 18.648082</description>
+          <Point>
+            <coordinates>101.00940023954398,18.64808206727294,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-015</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 30
+treecover2000: 55
+lon/lat: 100.935020, 18.686081</description>
+          <Point>
+            <coordinates>100.93501973401888,18.6860808037912,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-016</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 101.008322, 18.732703</description>
+          <Point>
+            <coordinates>101.00832226120303,18.732703367037,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-017</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 101.161934, 18.682308</description>
+          <Point>
+            <coordinates>101.16193417478748,18.682307879597897,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-018</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 101.009131, 18.711413</description>
+          <Point>
+            <coordinates>101.00913074495875,18.711413294803368,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-019</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 30
+treecover2000: 64
+lon/lat: 101.206940, 18.770972</description>
+          <Point>
+            <coordinates>101.20693977052187,18.77097159814049,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-020</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 101.228499, 18.781751</description>
+          <Point>
+            <coordinates>101.22849933734074,18.781751381549928,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-021</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 10
+treecover2000: 67
+lon/lat: 101.211252, 18.753454</description>
+          <Point>
+            <coordinates>101.21125168388564,18.75345445010016,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-022</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.986224, 18.683925</description>
+          <Point>
+            <coordinates>100.9862237052137,18.68392484710931,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-023</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.975713, 18.672067</description>
+          <Point>
+            <coordinates>100.9757134163895,18.672067085358933,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-024</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: 2012
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 30
+treecover2000: 66
+lon/lat: 100.998620, 18.809240</description>
+          <Point>
+            <coordinates>100.99862045613455,18.809239829243985,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-025</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 101.102106, 18.665869</description>
+          <Point>
+            <coordinates>101.10210637686512,18.665868709898508,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-026</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.998890, 18.700634</description>
+          <Point>
+            <coordinates>100.99888995071979,18.700633511393935,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-027</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.995387, 18.683655</description>
+          <Point>
+            <coordinates>100.99538652111171,18.683655352524074,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-028</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 30
+treecover2000: 0
+lon/lat: 101.216372, 18.797382</description>
+          <Point>
+            <coordinates>101.21637208100512,18.797382067493608,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-029</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 5
+lon/lat: 100.993231, 18.659940</description>
+          <Point>
+            <coordinates>100.99323056442984,18.65993982902332,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-MC-030</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 30
+treecover2000: 27
+lon/lat: 101.221492, 18.766390</description>
+          <Point>
+            <coordinates>101.2214924781246,18.766390190191483,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Pua</name>
+        <Placemark>
+          <name>G2-PUA-001</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.956310, 19.148534</description>
+          <Point>
+            <coordinates>100.95630980625252,19.148533512055927,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-002</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.832612, 19.168207</description>
+          <Point>
+            <coordinates>100.83261179162926,19.168206616778146,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-003</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 10
+treecover2000: 0
+lon/lat: 100.891362, 19.190575</description>
+          <Point>
+            <coordinates>100.89136161121068,19.19057466735272,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-004</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: 2008
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 30
+treecover2000: 72
+lon/lat: 101.016946, 19.174944</description>
+          <Point>
+            <coordinates>101.01694608793059,19.17494398140904,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-005</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: 2016
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 87
+lon/lat: 101.067072, 19.283820</description>
+          <Point>
+            <coordinates>101.06707208078446,19.283819793844327,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-006</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.861717, 19.178447</description>
+          <Point>
+            <coordinates>100.86171720683473,19.178447411017107,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-007</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 12
+lon/lat: 100.942027, 19.082238</description>
+          <Point>
+            <coordinates>100.94202659323501,19.082237844087906,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-008</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.898907, 19.203510</description>
+          <Point>
+            <coordinates>100.89890745959728,19.203510407444043,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-009</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.936906, 19.173058</description>
+          <Point>
+            <coordinates>100.93690619611554,19.17305751931239,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-010</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.926935, 19.013247</description>
+          <Point>
+            <coordinates>100.92693489646182,19.013247230267527,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-011</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 10
+treecover2000: 0
+lon/lat: 100.941488, 19.222914</description>
+          <Point>
+            <coordinates>100.94148760406455,19.222914017581026,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-012</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.943105, 19.111074</description>
+          <Point>
+            <coordinates>100.94310457157596,19.111073764708145,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-013</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.931516, 19.010822</description>
+          <Point>
+            <coordinates>100.93151630441082,19.010821779000405,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-014</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.926935, 19.186263</description>
+          <Point>
+            <coordinates>100.92693489646182,19.18626275398895,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-015</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.932864, 19.024835</description>
+          <Point>
+            <coordinates>100.932863777337,19.02483549743267,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-016</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.910226, 19.205127</description>
+          <Point>
+            <coordinates>100.91022623217718,19.205127374955456,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-017</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.844470, 19.181681</description>
+          <Point>
+            <coordinates>100.84446955337964,19.181681346039937,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-018</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.937445, 19.150420</description>
+          <Point>
+            <coordinates>100.93744518528601,19.15041997415258,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-019</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.931786, 19.005971</description>
+          <Point>
+            <coordinates>100.93178579899606,19.00597087646616,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-020</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.852015, 19.175752</description>
+          <Point>
+            <coordinates>100.85201540176624,19.17575246516475,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-021</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 10
+treecover2000: 0
+lon/lat: 100.924240, 19.032381</description>
+          <Point>
+            <coordinates>100.92423995060945,19.032381345819275,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-022</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.838002, 19.165512</description>
+          <Point>
+            <coordinates>100.83800168333397,19.165511670925788,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-023</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.932055, 19.178447</description>
+          <Point>
+            <coordinates>100.93205529358129,19.178447411017107,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-024</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.849590, 19.189227</description>
+          <Point>
+            <coordinates>100.84958995049912,19.189227194426543,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-025</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 10
+treecover2000: 0
+lon/lat: 100.875731, 19.208631</description>
+          <Point>
+            <coordinates>100.87573092526699,19.208630804563523,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-026</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.930438, 19.189497</description>
+          <Point>
+            <coordinates>100.93043832606988,19.18949668901178,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-027</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.937715, 19.188419</description>
+          <Point>
+            <coordinates>100.93771467987125,19.188418710670835,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-028</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.839080, 19.188419</description>
+          <Point>
+            <coordinates>100.83907966167492,19.188418710670835,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-029</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.843661, 19.203780</description>
+          <Point>
+            <coordinates>100.84366106962393,19.20377990202928,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-PUA-030</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.927204, 19.033190</description>
+          <Point>
+            <coordinates>100.92720439104704,19.03318982957498,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Tha Wang Pha</name>
+        <Placemark>
+          <name>G2-TWP-001</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.807279, 19.129130</description>
+          <Point>
+            <coordinates>100.8072793006171,19.129129901918947,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-002</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.887858, 19.079004</description>
+          <Point>
+            <coordinates>100.88785818160261,19.079003909065076,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-003</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.791918, 19.152845</description>
+          <Point>
+            <coordinates>100.79191810925865,19.152845425419702,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-004</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.838541, 19.097060</description>
+          <Point>
+            <coordinates>100.83854067250445,19.097060046275878,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-005</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.780330, 19.094096</description>
+          <Point>
+            <coordinates>100.78032984209351,19.094095605838284,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-006</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.787606, 19.044509</description>
+          <Point>
+            <coordinates>100.78760619589487,19.044508602154888,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-007</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.921006, 19.094904</description>
+          <Point>
+            <coordinates>100.92100601558663,19.094904089593992,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-008</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.756075, 19.181681</description>
+          <Point>
+            <coordinates>100.75607532942227,19.181681346039937,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-009</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.847164, 19.079812</description>
+          <Point>
+            <coordinates>100.847164499232,19.079812392820784,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-010</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.795691, 19.107570</description>
+          <Point>
+            <coordinates>100.79569103345194,19.10757033510008,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-011</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.891901, 18.997886</description>
+          <Point>
+            <coordinates>100.89190060038115,18.997886038909083,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-012</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.784642, 19.058253</description>
+          <Point>
+            <coordinates>100.78464175545727,19.058252826001915,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-013</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.793805, 19.094904</description>
+          <Point>
+            <coordinates>100.7938045713553,19.094904089593992,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-014</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.794344, 19.101372</description>
+          <Point>
+            <coordinates>100.79434356052577,19.101371959639653,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-015</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.909957, 19.098138</description>
+          <Point>
+            <coordinates>100.90995673759195,19.098138024616823,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-016</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.716460, 19.282203</description>
+          <Point>
+            <coordinates>100.7164596253926,19.282202826332913,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-017</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.817251, 19.128321</description>
+          <Point>
+            <coordinates>100.81725060027081,19.12832141816324,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-018</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.816981, 19.137484</description>
+          <Point>
+            <coordinates>100.81698110568558,19.137484234061258,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-019</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.797847, 19.081429</description>
+          <Point>
+            <coordinates>100.79784699013383,19.081429360332198,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-020</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.822640, 19.128052</description>
+          <Point>
+            <coordinates>100.82264049197553,19.128051923578003,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-021</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.780869, 19.159583</description>
+          <Point>
+            <coordinates>100.78086883126397,19.1595827900506,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-022</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.844200, 19.084663</description>
+          <Point>
+            <coordinates>100.8442000587944,19.08466329535503,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-023</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.911843, 19.093018</description>
+          <Point>
+            <coordinates>100.9118431996886,19.093017627497343,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-024</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.802698, 19.080351</description>
+          <Point>
+            <coordinates>100.80269789266808,19.080351381991257,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-025</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.792996, 19.120776</description>
+          <Point>
+            <coordinates>100.79299608759959,19.120775569776633,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-026</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: 2019
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.657171, 19.261182</description>
+          <Point>
+            <coordinates>100.65717081664071,19.261182248684516,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-027</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.760118, 19.192461</description>
+          <Point>
+            <coordinates>100.76011774820081,19.192461129449374,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-028</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.747721, 19.188149</description>
+          <Point>
+            <coordinates>100.74772099727997,19.1881492160856,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-029</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.839349, 19.093557</description>
+          <Point>
+            <coordinates>100.83934915626016,19.09355661666781,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G2-TWP-030</name>
+          <styleUrl>#style-G2</styleUrl>
+          <description>pool_name: G2_EXISTING_CROPLAND
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 0
+wc2020: 40
+wc2021: 40
+treecover2000: 0
+lon/lat: 100.928013, 18.994113</description>
+          <Point>
+            <coordinates>100.92801287480275,18.99411311471578,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder>
+      <name>G4_INTACT_FOREST</name>
+      <Folder>
+        <name>Mae Charim</name>
+        <Placemark>
+          <name>G4-MC-001</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 81
+lon/lat: 101.115042, 18.611431</description>
+          <Point>
+            <coordinates>101.11504211695643,18.611430803680864,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-002</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 86
+lon/lat: 101.120971, 18.616551</description>
+          <Point>
+            <coordinates>101.12097099783162,18.616551200800348,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-003</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.213138, 18.677457</description>
+          <Point>
+            <coordinates>101.21313814598228,18.677456977063652,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-004</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.177565, 18.796035</description>
+          <Point>
+            <coordinates>101.17756486073115,18.796034594567427,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-005</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 6
+lon/lat: 100.997273, 18.827296</description>
+          <Point>
+            <coordinates>100.99727298320836,18.827295966454788,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-006</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.011287, 18.688776</description>
+          <Point>
+            <coordinates>101.01128670164063,18.688775749643558,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-007</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 89
+lon/lat: 101.171905, 18.845083</description>
+          <Point>
+            <coordinates>101.1719054744412,18.845082609080354,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-008</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 101.159239, 18.769624</description>
+          <Point>
+            <coordinates>101.15923922893512,18.769624125214314,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-009</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 91
+lon/lat: 101.250328, 18.835650</description>
+          <Point>
+            <coordinates>101.25032839874484,18.8356502985971,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-010</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 91
+lon/lat: 101.127169, 18.642692</description>
+          <Point>
+            <coordinates>101.12716937329205,18.642692175568225,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-011</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 87
+lon/lat: 101.212060, 18.873380</description>
+          <Point>
+            <coordinates>101.21206016764134,18.87337954053012,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-012</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 100.992961, 18.820020</description>
+          <Point>
+            <coordinates>100.9929610698446,18.820019612653418,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-013</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 76
+lon/lat: 101.046590, 18.677187</description>
+          <Point>
+            <coordinates>101.04659049230654,18.677187482478416,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-014</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 86
+lon/lat: 101.023953, 18.592836</description>
+          <Point>
+            <coordinates>101.02395294714673,18.592835677299593,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-015</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 101.222301, 18.676110</description>
+          <Point>
+            <coordinates>101.22230096188031,18.67610950413747,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-016</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 73
+lon/lat: 101.227960, 18.825410</description>
+          <Point>
+            <coordinates>101.22796034817026,18.825409504358134,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-017</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 95
+lon/lat: 101.170019, 18.573432</description>
+          <Point>
+            <coordinates>101.17001901234455,18.57343206716261,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-018</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 89
+lon/lat: 101.161665, 18.845352</description>
+          <Point>
+            <coordinates>101.16166468020224,18.84535210366559,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-019</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 81
+lon/lat: 101.000776, 18.661287</description>
+          <Point>
+            <coordinates>101.00077641281644,18.6612873019495,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-020</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.065455, 18.577205</description>
+          <Point>
+            <coordinates>101.06545511327305,18.577204991355913,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-021</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 78
+lon/lat: 101.087284, 18.832686</description>
+          <Point>
+            <coordinates>101.08728417467715,18.832685858159504,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-022</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 33
+lon/lat: 101.028265, 18.636763</description>
+          <Point>
+            <coordinates>101.02826486051049,18.636763294693036,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-023</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 59
+lon/lat: 101.038775, 18.639997</description>
+          <Point>
+            <coordinates>101.0387751493347,18.639997229715867,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-024</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 66
+lon/lat: 101.126091, 18.851550</description>
+          <Point>
+            <coordinates>101.1260913949511,18.851550479126015,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-025</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 38
+lon/lat: 101.195621, 18.710874</description>
+          <Point>
+            <coordinates>101.19562099794196,18.710874305632895,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-026</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 101.128786, 18.718151</description>
+          <Point>
+            <coordinates>101.12878634080347,18.718150659434265,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-027</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 86
+lon/lat: 101.198585, 18.855862</description>
+          <Point>
+            <coordinates>101.19858543837955,18.855862392489787,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-028</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 98
+lon/lat: 101.043626, 18.801155</description>
+          <Point>
+            <coordinates>101.04362605186894,18.801154991686907,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-029</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 64
+lon/lat: 101.014790, 18.721115</description>
+          <Point>
+            <coordinates>101.0147901312487,18.72111509987186,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-MC-030</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Mae Charim
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 79
+lon/lat: 101.089710, 18.687967</description>
+          <Point>
+            <coordinates>101.08970962594427,18.68796726588785,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Pua</name>
+        <Placemark>
+          <name>G4-PUA-001</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 95
+lon/lat: 101.066264, 19.078734</description>
+          <Point>
+            <coordinates>101.06626359702875,19.07873441447984,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-002</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 101.068959, 19.035885</description>
+          <Point>
+            <coordinates>101.0689585428811,19.03588477542734,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-003</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 89
+lon/lat: 101.082164, 19.123201</description>
+          <Point>
+            <coordinates>101.08216377755767,19.12320102104376,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-004</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 81
+lon/lat: 100.887319, 19.153384</description>
+          <Point>
+            <coordinates>100.88731919243214,19.153384414590175,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-005</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 100
+lon/lat: 101.099950, 19.335024</description>
+          <Point>
+            <coordinates>101.09995042018323,19.33502376503914,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-006</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 78
+lon/lat: 101.044165, 18.989801</description>
+          <Point>
+            <coordinates>101.0441650410394,18.98980120135201,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-007</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.034194, 19.114308</description>
+          <Point>
+            <coordinates>101.03419374138568,19.114307699730976,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-008</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 100
+lon/lat: 101.052250, 19.093557</description>
+          <Point>
+            <coordinates>101.05224987859648,19.09355661666781,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-009</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 75
+lon/lat: 101.077043, 19.330712</description>
+          <Point>
+            <coordinates>101.07704338043818,19.330711851675368,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-010</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 90
+lon/lat: 101.059526, 19.128052</description>
+          <Point>
+            <coordinates>101.05952623239786,19.128051923578003,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-011</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 101.020719, 19.266572</description>
+          <Point>
+            <coordinates>101.02071901212389,19.266572140389233,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-012</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 89
+lon/lat: 101.081894, 19.109187</description>
+          <Point>
+            <coordinates>101.08189428297243,19.109187302611492,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-013</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 90
+lon/lat: 101.060065, 19.115925</description>
+          <Point>
+            <coordinates>101.06006522156832,19.11592466724239,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-014</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 0
+lon/lat: 101.030960, 19.283011</description>
+          <Point>
+            <coordinates>101.03095980636284,19.28301131008862,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-015</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 92
+lon/lat: 101.107496, 19.188149</description>
+          <Point>
+            <coordinates>101.10749626856983,19.1881492160856,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-016</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 101.113695, 19.145569</description>
+          <Point>
+            <coordinates>101.11369464403026,19.145569071618333,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-017</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 45
+lon/lat: 101.021258, 19.238545</description>
+          <Point>
+            <coordinates>101.02125800129436,19.238544703524703,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-018</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 56
+lon/lat: 100.948225, 19.185185</description>
+          <Point>
+            <coordinates>100.94822496869544,19.185184775648004,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-019</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 62
+lon/lat: 100.800003, 19.201085</description>
+          <Point>
+            <coordinates>100.80000294681572,19.20108495617692,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-020</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 100.973018, 19.112152</description>
+          <Point>
+            <coordinates>100.97301847053714,19.112151743049086,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-021</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 74
+lon/lat: 101.038236, 19.043700</description>
+          <Point>
+            <coordinates>101.03823616016422,19.04370011839918,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-022</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 87
+lon/lat: 101.060874, 19.143952</description>
+          <Point>
+            <coordinates>101.06087370532403,19.14395210410692,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-023</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 91
+lon/lat: 101.072462, 19.285167</description>
+          <Point>
+            <coordinates>101.07246197248918,19.285167266770507,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-024</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 90
+lon/lat: 101.041470, 19.134250</description>
+          <Point>
+            <coordinates>101.04147009518705,19.134250299038428,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-025</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 96
+lon/lat: 101.078930, 19.206475</description>
+          <Point>
+            <coordinates>101.07892984253483,19.206474847881637,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-026</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 95
+lon/lat: 101.032846, 19.102180</description>
+          <Point>
+            <coordinates>101.03284626845951,19.102180443395362,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-027</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 98
+lon/lat: 101.098064, 19.179525</description>
+          <Point>
+            <coordinates>101.09806395808658,19.17952538935805,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-028</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 89
+lon/lat: 101.042548, 19.065529</description>
+          <Point>
+            <coordinates>101.042548073528,19.065529179803285,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-029</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 71
+lon/lat: 101.050363, 19.033998</description>
+          <Point>
+            <coordinates>101.05036341649983,19.033998313330688,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-PUA-030</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Pua
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 36
+lon/lat: 100.892170, 19.174135</description>
+          <Point>
+            <coordinates>100.89217009496639,19.174135497653335,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Tha Wang Pha</name>
+        <Placemark>
+          <name>G4-TWP-001</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 100.723197, 19.040197</description>
+          <Point>
+            <coordinates>100.7231969900235,19.040196688791113,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-002</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 89
+lon/lat: 100.651511, 19.163625</description>
+          <Point>
+            <coordinates>100.65151143035077,19.163625208829135,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-003</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 61
+lon/lat: 100.671185, 19.122932</description>
+          <Point>
+            <coordinates>100.67118453507298,19.122931526458522,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-004</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: 2010
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 75
+lon/lat: 100.664717, 19.174405</description>
+          <Point>
+            <coordinates>100.66471666502733,19.17440499223857,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-005</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 14
+lon/lat: 100.712417, 19.153384</description>
+          <Point>
+            <coordinates>100.71241720661406,19.153384414590175,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-006</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 76
+lon/lat: 100.617825, 19.082507</description>
+          <Point>
+            <coordinates>100.61782460719628,19.082507338673143,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-007</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 71
+lon/lat: 100.602194, 19.071728</description>
+          <Point>
+            <coordinates>100.6021939212526,19.07172755526371,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-008</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 89
+lon/lat: 100.675496, 19.109996</description>
+          <Point>
+            <coordinates>100.67549644843676,19.1099957863672,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-009</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 96
+lon/lat: 100.855788, 19.031303</description>
+          <Point>
+            <coordinates>100.85578832595954,19.03130336747833,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-010</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 59
+lon/lat: 100.703254, 19.153115</description>
+          <Point>
+            <coordinates>100.70325439071605,19.15311492000494,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-011</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 100.881390, 19.050168</description>
+          <Point>
+            <coordinates>100.88139031155696,19.05016798844484,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-012</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 90
+lon/lat: 100.625370, 19.186532</description>
+          <Point>
+            <coordinates>100.62537045558288,19.186532248574185,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-013</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 70
+lon/lat: 100.919928, 18.999773</description>
+          <Point>
+            <coordinates>100.91992803724568,18.999772501005737,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-014</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 66
+lon/lat: 100.877348, 19.063643</description>
+          <Point>
+            <coordinates>100.87734789277842,19.06364271770663,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-015</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 100.633994, 19.162278</description>
+          <Point>
+            <coordinates>100.63399428231044,19.162277735902958,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-016</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 0
+lon/lat: 100.957118, 19.042622</description>
+          <Point>
+            <coordinates>100.95711829000822,19.042622140058235,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-017</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 27
+lon/lat: 100.669568, 19.221297</description>
+          <Point>
+            <coordinates>100.66956756756157,19.22129705006961,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-018</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 100.728587, 19.109996</description>
+          <Point>
+            <coordinates>100.72858688172822,19.1099957863672,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-019</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 85
+lon/lat: 100.678191, 19.113499</description>
+          <Point>
+            <coordinates>100.67819139428912,19.113499215975267,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-020</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 75
+lon/lat: 100.656093, 19.139640</description>
+          <Point>
+            <coordinates>100.65609283829977,19.139640190743144,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-021</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 87
+lon/lat: 100.642349, 19.155540</description>
+          <Point>
+            <coordinates>100.64234861445274,19.15554037127206,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-022</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 78
+lon/lat: 100.827491, 19.068494</description>
+          <Point>
+            <coordinates>100.82749139450978,19.06849362024088,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-023</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 95
+lon/lat: 100.601116, 19.066338</description>
+          <Point>
+            <coordinates>100.60111594291166,19.06633766355899,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-024</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 100
+lon/lat: 100.588719, 19.080082</description>
+          <Point>
+            <coordinates>100.5887191919908,19.08008188740602,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-025</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 100.734785, 19.107840</description>
+          <Point>
+            <coordinates>100.73478525718865,19.107839829685314,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-026</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 100.829647, 19.071189</description>
+          <Point>
+            <coordinates>100.82964735119167,19.071188566093237,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-027</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 82
+lon/lat: 100.627796, 19.222375</description>
+          <Point>
+            <coordinates>100.62779590685001,19.222375028410553,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-028</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 78
+lon/lat: 100.903489, 19.058792</description>
+          <Point>
+            <coordinates>100.90348886754629,19.058791815172388,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-029</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 78
+lon/lat: 100.721580, 19.178986</description>
+          <Point>
+            <coordinates>100.72158002251209,19.17898640018758,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>G4-TWP-030</name>
+          <styleUrl>#style-G4</styleUrl>
+          <description>pool_name: G4_INTACT_FOREST
+district: Tha Wang Pha
+seed_source: none
+lossyear: none
+radd_date: none
+jrc_forest2020: 1
+wc2020: 10
+wc2021: 10
+treecover2000: 76
+lon/lat: 100.684390, 19.115925</description>
+          <Point>
+            <coordinates>100.68438976974954,19.11592466724239,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

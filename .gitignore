@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Virtual environments & secrets
+.venv/
+.env
+credentials*.json
+*service-account*.json
+
+# Geospatial / large data exports
+*.parquet
+*.tif
+*.tiff
+data/raw/
+data/exports/
+
+# Blind test set (must never enter repo)
+*blind*
+
+# Notebooks & OS
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+*.pkl

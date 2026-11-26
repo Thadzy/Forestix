@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forestix"
+version = "0.1.0"
+description = "Automated deforestation plot verification for Nan Province, Thailand."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "earthengine-api",
+    "geemap",
+    "geopandas",
+    "shapely",
+    "pyproj",
+    "pandas",
+    "pyarrow",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "pyyaml",
+    "python-dotenv",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forestix DS-3 Labeling Studio</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    :root {
+      --bg: #0b0f17;
+      --panel: #131a26;
+      --panel-2: #1a2333;
+      --border: #263247;
+      --text: #e6edf7;
+      --muted: #8b9bb4;
+      --g1: #ef4444;
+      --g2: #f59e0b;
+      --g3: #d946ef;
+      --g4: #22c55e;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Noto Sans Thai", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 310px 1fr;
+    }
+    /* Sidebar */
+    aside {
+      background: var(--panel);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .brand {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand h1 { font-size: 15px; font-weight: 700; letter-spacing: 0.2px; }
+    .brand .pill {
+      font-size: 11px; padding: 2px 8px; border-radius: 999px;
+      background: rgba(56, 189, 248, 0.15); color: var(--accent); font-weight: 600;
+    }
+    .quotas {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      display: grid;
+      gap: 7px;
+    }
+    .q-row { display: grid; grid-template-columns: 82px 1fr 42px; align-items: center; gap: 8px; font-size: 12px; }
+    .q-bar { height: 7px; background: var(--panel-2); border-radius: 99px; overflow: hidden; }
+    .q-fill { height: 100%; border-radius: 99px; transition: width 0.25s ease; }
+    .q-sizes {
+      display: flex; gap: 6px; margin-top: 4px; flex-wrap: wrap;
+    }
+    .q-size-pill {
+      font-size: 11px; color: var(--muted); background: var(--panel-2);
+      border: 1px solid var(--border); border-radius: 6px; padding: 2px 7px;
+    }
+    .filters {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+    }
+    select, input[type="text"] {
+      background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
+      border-radius: 7px; padding: 6px 8px; font-size: 12px; outline: none;
+    }
+    select:focus, input:focus { border-color: var(--accent); }
+    .cand-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 6px;
+    }
+    .cand-item {
+      padding: 8px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 3px;
+      border: 1px solid transparent;
+      font-size: 12.5px;
+    }
+    .cand-item:hover { background: var(--panel-2); }
+    .cand-item.active { background: rgba(56, 189, 248, 0.14); border-color: rgba(56, 189, 248, 0.45); }
+    .cand-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
+    .badge {
+      font-size: 10.5px; font-weight: 700; padding: 2px 7px; border-radius: 6px;
+      text-transform: uppercase;
+    }
+    .b-G1 { background: rgba(239,68,68,.2); color: #fca5a5; }
+    .b-G2 { background: rgba(245,158,11,.2); color: #fcd34d; }
+    .b-G3 { background: rgba(217,70,239,.2); color: #f0abfc; }
+    .b-G4 { background: rgba(34,197,94,.2); color: #86efac; }
+    .b-skip { background: rgba(148,163,184,.18); color: #94a3b8; }
+    .b-todo { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+
+    /* Main */
+    main {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .topbar {
+      background: var(--panel);
+      border-bottom: 1px solid var(--border);
+      padding: 9px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .plot-title { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .plot-title h2 { font-size: 16px; font-weight: 700; }
+    .chip {
+      font-size: 11.5px; padding: 3px 9px; border-radius: 999px;
+      background: var(--panel-2); border: 1px solid var(--border); color: var(--text);
+    }
+    .chip.warn { border-color: rgba(245,158,11,.5); color: #fcd34d; }
+    .chip.good { border-color: rgba(34,197,94,.5); color: #86efac; }
+    .nav-btns { display: flex; gap: 6px; align-items: center; }
+
+    /* Dual Map */
+    .maps {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+      background: var(--border);
+      position: relative;
+      min-height: 0;
+    }
+    .map-pane { position: relative; width: 100%; height: 100%; }
+    .map-div { width: 100%; height: 100%; background: #0d1117; }
+    .map-label {
+      position: absolute; top: 10px; left: 50px; z-index: 600;
+      background: rgba(11, 15, 23, 0.86); backdrop-filter: blur(6px);
+      border: 1px solid var(--border); border-radius: 9px;
+      padding: 5px 9px; display: flex; align-items: center; gap: 8px;
+      font-size: 12px; font-weight: 600;
+    }
+    .map-label select { padding: 3px 6px; font-size: 11.5px; }
+    .draw-hint {
+      position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%);
+      z-index: 600; background: rgba(14, 165, 233, 0.92); color: #041019;
+      font-size: 12.5px; font-weight: 700; padding: 6px 14px; border-radius: 999px;
+      display: none; box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    }
+    .draw-hint.show { display: block; }
+
+    /* Bottom Dock */
+    .dock {
+      background: var(--panel);
+      border-top: 1px solid var(--border);
+      padding: 10px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+    .dock-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .btn-group { display: flex; gap: 7px; flex-wrap: wrap; align-items: center; }
+    button {
+      background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
+      border-radius: 8px; padding: 7px 12px; font-size: 12.5px; font-weight: 600;
+      cursor: pointer; transition: all 0.14s ease; display: inline-flex; align-items: center; gap: 6px;
+    }
+    button:hover { border-color: #4b5d7a; transform: translateY(-1px); }
+    button.primary { background: var(--accent); color: #05131f; border-color: var(--accent); }
+    button.drawing { background: #0ea5e9; color: #041019; border-color: #38bdf8; box-shadow: 0 0 0 3px rgba(56,189,248,0.28); }
+    .lbl-btn { padding: 10px 15px; font-size: 13px; border-width: 1.5px; }
+    .lbl-G1 { background: rgba(239,68,68,.16); border-color: rgba(239,68,68,.65); color: #fecaca; }
+    .lbl-G1:hover { background: rgba(239,68,68,.32); }
+    .lbl-G2 { background: rgba(245,158,11,.16); border-color: rgba(245,158,11,.65); color: #fde68a; }
+    .lbl-G2:hover { background: rgba(245,158,11,.32); }
+    .lbl-G3 { background: rgba(217,70,239,.16); border-color: rgba(217,70,239,.65); color: #f5d0fe; }
+    .lbl-G3:hover { background: rgba(217,70,239,.32); }
+    .lbl-G4 { background: rgba(34,197,94,.16); border-color: rgba(34,197,94,.65); color: #bbf7d0; }
+    .lbl-G4:hover { background: rgba(34,197,94,.32); }
+    .lbl-skip { background: rgba(148,163,184,.12); border-color: rgba(148,163,184,.4); color: #cbd5e1; }
+    .kbd {
+      font-size: 10.5px; padding: 1px 5px; border-radius: 4px;
+      background: rgba(0,0,0,0.35); border: 1px solid rgba(255,255,255,0.18);
+    }
+    .toast {
+      position: fixed; top: 14px; right: 18px; z-index: 9999;
+      background: #10b981; color: #022c22; font-weight: 700; font-size: 12.5px;
+      padding: 8px 14px; border-radius: 9px; opacity: 0; pointer-events: none;
+      transition: opacity 0.2s ease; box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+    }
+    .toast.show { opacity: 1; }
+    .vertex-handle {
+      width: 11px; height: 11px; border-radius: 50%;
+      background: #38bdf8; border: 2px solid #0b0f17; cursor: move;
+    }
+  </style>
+</head>
+<body>
+  <aside>
+    <div class="brand">
+      <h1>Forestix DS-3 Studio</h1>
+      <span class="pill" id="totalPill">0 / 80</span>
+    </div>
+
+    <div class="quotas">
+      <div class="q-row"><span>G1 ถางป่า</span><div class="q-bar"><div class="q-fill" id="barG1" style="background:var(--g1);width:0%"></div></div><span id="cntG1">0/20</span></div>
+      <div class="q-row"><span>G2 ไร่เดิม</span><div class="q-bar"><div class="q-fill" id="barG2" style="background:var(--g2);width:0%"></div></div><span id="cntG2">0/20</span></div>
+      <div class="q-row"><span>G3 สวนยาง</span><div class="q-bar"><div class="q-fill" id="barG3" style="background:var(--g3);width:0%"></div></div><span id="cntG3">0/20</span></div>
+      <div class="q-row"><span>G4 ป่าคงอยู่</span><div class="q-bar"><div class="q-fill" id="barG4" style="background:var(--g4);width:0%"></div></div><span id="cntG4">0/20</span></div>
+      <div class="q-sizes">
+        <span class="q-size-pill" id="szSmall">เล็ก: 0</span>
+        <span class="q-size-pill" id="szMed">กลาง: 0</span>
+        <span class="q-size-pill" id="szLarge">ใหญ่: 0</span>
+      </div>
+    </div>
+
+    <div class="filters">
+      <select id="fPool">
+        <option value="ALL">ทุก Pool</option>
+        <option value="LOSS_POST2020">LOSS (G1+G3)</option>
+        <option value="G2_EXISTING_CROPLAND">G2 ไร่เดิม</option>
+        <option value="G4_INTACT_FOREST">G4 ป่าคงอยู่</option>
+      </select>
+      <select id="fStatus">
+        <option value="TODO">ยังไม่ทำ</option>
+        <option value="ALL">ทุกสถานะ</option>
+        <option value="LABELED">ติดป้ายแล้ว</option>
+        <option value="SKIPPED">ข้ามไว้</option>
+      </select>
+      <select id="fDist" style="grid-column: span 2;">
+        <option value="ALL">ทุกอำเภอ (Train Zone)</option>
+        <option value="Pua">อ.ปัว (Pua)</option>
+        <option value="Mae Charim">อ.แม่จริม (Mae Charim)</option>
+        <option value="Tha Wang Pha">อ.ท่าวังผา (Tha Wang Pha)</option>
+      </select>
+    </div>
+
+    <div class="cand-list" id="candList"></div>
+  </aside>
+
+  <main>
+    <div class="topbar">
+      <div class="plot-title">
+        <h2 id="curId">—</h2>
+        <span class="chip" id="curDist">—</span>
+        <span class="chip" id="curLoss">—</span>
+        <span class="chip" id="curJrc">—</span>
+        <span class="chip" id="curArea">ยังไม่มีขอบแปลง</span>
+      </div>
+      <div class="nav-btns">
+        <button id="btnPrev" title="แปลงก่อนหน้า">← ก่อนหน้า</button>
+        <button id="btnNext" title="แปลงถัดไป">ถัดไป →</button>
+      </div>
+    </div>
+
+    <div class="maps">
+      <div class="map-pane">
+        <div class="map-label">
+          <span>BEFORE (ก่อน 2021)</span>
+          <select id="selBefore"></select>
+        </div>
+        <div id="mapBefore" class="map-div"></div>
+      </div>
+
+      <div class="map-pane">
+        <div class="map-label">
+          <span>AFTER (หลัง 2020)</span>
+          <select id="selAfter"></select>
+        </div>
+        <div id="mapAfter" class="map-div"></div>
+        <div id="drawHint" class="draw-hint">คลิกจุดรอบขอบแปลงบนแผนที่ขวา • ดับเบิลคลิก หรือกด Enter เพื่อปิดรูป</div>
+      </div>
+    </div>
+
+    <div class="dock">
+      <div class="dock-row">
+        <div class="btn-group">
+          <button id="btnDraw">✏️ วาดขอบแปลง <span class="kbd">D</span></button>
+          <button id="btnPresetSmall">◻️ เล็ก ~2 ไร่</button>
+          <button id="btnPresetMed">◻️ กลาง ~4 ไร่</button>
+          <button id="btnPresetLarge">◻️ ใหญ่ ~12 ไร่</button>
+          <button id="btnClearPoly">ล้างขอบ</button>
+        </div>
+        <div class="btn-group">
+          <input type="text" id="inDate" placeholder="เดือนที่ถาง เช่น 2023-12 (ไม่บังคับ)" style="width: 205px;" />
+          <input type="text" id="inNotes" placeholder="โน้ตสั้นๆ..." style="width: 150px;" />
+          <label style="font-size:12px;color:var(--muted);display:flex;align-items:center;gap:5px;cursor:pointer;">
+            <input type="checkbox" id="chkAutoNext" checked /> ไปแปลงถัดไปอัตโนมัติ
+          </label>
+        </div>
+      </div>
+
+      <div class="dock-row">
+        <div class="btn-group">
+          <button class="lbl-btn lbl-G1" onclick="submitLabel('G1')"><span class="kbd">1</span> G1 ถางป่าใหม่</button>
+          <button class="lbl-btn lbl-G2" onclick="submitLabel('G2')"><span class="kbd">2</span> G2 ไร่เดิม</button>
+          <button class="lbl-btn lbl-G3" onclick="submitLabel('G3')"><span class="kbd">3</span> G3 ตัดสวนยาง</button>
+          <button class="lbl-btn lbl-G4" onclick="submitLabel('G4')"><span class="kbd">4</span> G4 ป่าคงอยู่</button>
+          <button class="lbl-btn lbl-skip" onclick="submitSkip()"><span class="kbd">S</span> ข้าม (ไม่ชัด/เมฆ)</button>
+        </div>
+        <div style="font-size:11.5px;color:var(--muted);" id="savePathHint">Auto-save → data/train/train_plots.geojson</div>
+      </div>
+    </div>
+  </main>
+
+  <div class="toast" id="toast">บันทึกแล้ว!</div>
+
+  <script>
+    const STATE = {
+      candidates: [],
+      saved: {},
+      filtered: [],
+      curId: null,
+      ring: null, // [[lon, lat], ...]
+      drawing: false,
+      draftPts: [],
+      syncing: false,
+    };
+
+    const mapBefore = L.map('mapBefore', { zoomControl: true, maxZoom: 20 }).setView([19.0, 101.05], 16);
+    const mapAfter  = L.map('mapAfter',  { zoomControl: true, maxZoom: 20 }).setView([19.0, 101.05], 16);
+
+    let tileBefore = null, tileAfter = null;
+    let pinBefore = null, pinAfter = null;
+    let polyBefore = null, polyAfter = null;
+    let draftLine = null;
+    let vertexMarkers = [];
+
+    function syncMaps(src, dst) {
+      src.on('move', () => {
+        if (STATE.syncing) return;
+        STATE.syncing = true;
+        dst.setView(src.getCenter(), src.getZoom(), { animate: false });
+        STATE.syncing = false;
+      });
+    }
+    syncMaps(mapBefore, mapAfter);
+    syncMaps(mapAfter, mapBefore);
+
+    function setTile(which, url) {
+      if (which === 'before') {
+        if (tileBefore) mapBefore.removeLayer(tileBefore);
+        tileBefore = L.tileLayer(url, { maxZoom: 20, maxNativeZoom: 18 }).addTo(mapBefore);
+      } else {
+        if (tileAfter) mapAfter.removeLayer(tileAfter);
+        tileAfter = L.tileLayer(url, { maxZoom: 20, maxNativeZoom: 19 }).addTo(mapAfter);
+      }
+    }
+
+    async function initImageryLayers() {
+      const selBefore = document.getElementById('selBefore');
+      const selAfter = document.getElementById('selAfter');
+
+      const afterPresets = [
+        { label: 'Google Satellite (ล่าสุด)', url: 'https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}' },
+        { label: 'ESRI World Imagery (ล่าสุด)', url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}' },
+      ];
+      const beforeFallback = [
+        { label: 'Wayback 2020-12-16', url: 'https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26120/{z}/{y}/{x}' },
+        { label: 'Wayback 2020-01-08', url: 'https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/11135/{z}/{y}/{x}' },
+        { label: 'ESRI World Imagery (ล่าสุด)', url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}' },
+      ];
+
+      let beforeOpts = beforeFallback;
+      let afterOpts = [...afterPresets];
+
+      try {
+        const res = await fetch('https://s3-us-west-2.amazonaws.com/config.maptiles.arcgis.com/waybackconfig.json');
+        if (res.ok) {
+          const cfg = await res.json();
+          const entries = Object.entries(cfg).map(([rnum, obj]) => {
+            const title = obj.itemTitle || '';
+            const m = title.match(/(\d{4}-\d{2}-\d{2})/);
+            const date = m ? m[1] : '';
+            return {
+              date,
+              label: `Wayback ${date || rnum}`,
+              url: `https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/${rnum}/{z}/{y}/{x}`
+            };
+          }).filter(e => e.date);
+
+          const pre = entries.filter(e => e.date >= '2019-01-01' && e.date <= '2020-12-31').sort((a, b) => b.date.localeCompare(a.date));
+          const post = entries.filter(e => e.date >= '2021-01-01').sort((a, b) => b.date.localeCompare(a.date));
+          if (pre.length) beforeOpts = pre.slice(0, 12);
+          if (post.length) afterOpts = [...afterPresets, ...post.slice(0, 15)];
+        }
+      } catch (err) {
+        console.warn('Wayback config fetch fallback:', err);
+      }
+
+      selBefore.innerHTML = beforeOpts.map((o, i) => `<option value="${o.url}" ${i===0?'selected':''}>${o.label}</option>`).join('');
+      selAfter.innerHTML  = afterOpts.map((o, i) => `<option value="${o.url}" ${i===0?'selected':''}>${o.label}</option>`).join('');
+      setTile('before', selBefore.value);
+      setTile('after', selAfter.value);
+
+      selBefore.onchange = () => setTile('before', selBefore.value);
+      selAfter.onchange  = () => setTile('after', selAfter.value);
+    }
+
+    function computeMetrics(ring) {
+      if (!ring || ring.length < 4) return null;
+      const n = (ring[0][0] === ring[ring.length-1][0] && ring[0][1] === ring[ring.length-1][1]) ? ring.length - 1 : ring.length;
+      let lon0 = 0, lat0 = 0;
+      for (let i = 0; i < n; i++) { lon0 += ring[i][0]; lat0 += ring[i][1]; }
+      lon0 /= n; lat0 /= n;
+      const rad = lat0 * Math.PI / 180;
+      const mLat = 111132.92 - 559.82 * Math.cos(2*rad) + 1.175 * Math.cos(4*rad);
+      const mLon = 111412.84 * Math.cos(rad) - 93.5 * Math.cos(3*rad);
+      const pts = ring.map(p => [(p[0]-lon0)*mLon, (p[1]-lat0)*mLat]);
+      let area2 = 0, perim = 0;
+      for (let i = 0; i < pts.length - 1; i++) {
+        area2 += pts[i][0]*pts[i+1][1] - pts[i+1][0]*pts[i][1];
+        perim += Math.hypot(pts[i+1][0]-pts[i][0], pts[i+1][1]-pts[i][1]);
+      }
+      const areaM2 = Math.abs(area2) * 0.5;
+      const rai = Math.round((areaM2 / 1600) * 100) / 100;
+      let inner = Math.max(0, areaM2 - perim * 10 + Math.PI * 100);
+      if (perim > 0 && (2 * areaM2 / perim) <= 10) inner = 0;
+      const px = Math.floor(inner / 100);
+      const sizeLabel = rai < 3 ? 'เล็ก' : (rai < 6 ? 'กลาง' : (rai < 10 ? 'ค่อนข้างใหญ่' : 'ใหญ่'));
+      return { rai, px, sizeLabel };
+    }
+
+    function clearPolyLayers() {
+      if (polyBefore) { mapBefore.removeLayer(polyBefore); polyBefore = null; }
+      if (polyAfter)  { mapAfter.removeLayer(polyAfter);   polyAfter = null; }
+      if (draftLine)  { mapAfter.removeLayer(draftLine);   draftLine = null; }
+      vertexMarkers.forEach(m => mapAfter.removeLayer(m));
+      vertexMarkers = [];
+    }
+
+    function renderPolygon() {
+      clearPolyLayers();
+      const areaEl = document.getElementById('curArea');
+      if (!STATE.ring || STATE.ring.length < 4) {
+        areaEl.textContent = 'ยังไม่มีขอบแปลง';
+        areaEl.className = 'chip warn';
+        return;
+      }
+      const latlngs = STATE.ring.slice(0, -1).map(p => [p[1], p[0]]);
+      const style = { color: '#38bdf8', weight: 2.5, fillColor: '#38bdf8', fillOpacity: 0.14 };
+      polyBefore = L.polygon(latlngs, style).addTo(mapBefore);
+      polyAfter  = L.polygon(latlngs, style).addTo(mapAfter);
+
+      // Draggable vertex handles on After map
+      latlngs.forEach((ll, idx) => {
+        const icon = L.divIcon({ className: 'vertex-handle', iconSize: [11, 11], iconAnchor: [5, 5] });
+        const mk = L.marker(ll, { draggable: true, icon }).addTo(mapAfter);
+        mk.on('drag', (e) => {
+          const pos = e.target.getLatLng();
+          STATE.ring[idx] = [Number(pos.lng.toFixed(6)), Number(pos.lat.toFixed(6))];
+          if (idx === 0) STATE.ring[STATE.ring.length - 1] = [...STATE.ring[0]];
+          const updated = STATE.ring.slice(0, -1).map(p => [p[1], p[0]]);
+          polyBefore.setLatLngs(updated);
+          polyAfter.setLatLngs(updated);
+          updateAreaBadge();
+        });
+        vertexMarkers.push(mk);
+      });
+      updateAreaBadge();
+    }
+
+    function updateAreaBadge() {
+      const areaEl = document.getElementById('curArea');
+      const m = computeMetrics(STATE.ring);
+      if (!m) {
+        areaEl.textContent = 'ยังไม่มีขอบแปลง';
+        areaEl.className = 'chip warn';
+        return;
+      }
+      areaEl.textContent = `${m.rai} ไร่ (${m.sizeLabel}) • ${m.px} pure px`;
+      areaEl.className = m.px >= 9 ? 'chip good' : 'chip warn';
+    }
+
+    function makeSquarePreset(targetRai) {
+      const c = STATE.candidates.find(x => x.candidate_id === STATE.curId);
+      if (!c) return;
+      stopDrawing();
+      const sideM = Math.sqrt(targetRai * 1600);
+      const half = sideM / 2;
+      const rad = c.lat * Math.PI / 180;
+      const mLat = 111132.92 - 559.82 * Math.cos(2*rad);
+      const mLon = 111412.84 * Math.cos(rad);
+      const dLon = half / mLon, dLat = half / mLat;
+      STATE.ring = [
+        [+(c.lon - dLon).toFixed(6), +(c.lat - dLat).toFixed(6)],
+        [+(c.lon + dLon).toFixed(6), +(c.lat - dLat).toFixed(6)],
+        [+(c.lon + dLon).toFixed(6), +(c.lat + dLat).toFixed(6)],
+        [+(c.lon - dLon).toFixed(6), +(c.lat + dLat).toFixed(6)],
+        [+(c.lon - dLon).toFixed(6), +(c.lat - dLat).toFixed(6)],
+      ];
+      renderPolygon();
+    }
+
+    function startDrawing() {
+      STATE.drawing = true;
+      STATE.draftPts = [];
+      clearPolyLayers();
+      document.getElementById('btnDraw').classList.add('drawing');
+      document.getElementById('drawHint').classList.add('show');
+      mapAfter.getContainer().style.cursor = 'crosshair';
+    }
+
+    function stopDrawing() {
+      STATE.drawing = false;
+      STATE.draftPts = [];
+      if (draftLine) { mapAfter.removeLayer(draftLine); draftLine = null; }
+      document.getElementById('btnDraw').classList.remove('drawing');
+      document.getElementById('drawHint').classList.remove('show');
+      mapAfter.getContainer().style.cursor = '';
+    }
+
+    function finishDrawing() {
+      if (!STATE.drawing || STATE.draftPts.length < 3) {
+        stopDrawing();
+        renderPolygon();
+        return;
+      }
+      const ring = STATE.draftPts.map(ll => [+ll.lng.toFixed(6), +ll.lat.toFixed(6)]);
+      ring.push([...ring[0]]);
+      STATE.ring = ring;
+      stopDrawing();
+      renderPolygon();
+    }
+
+    mapAfter.on('click', (e) => {
+      if (!STATE.drawing) return;
+      STATE.draftPts.push(e.latlng);
+      if (draftLine) mapAfter.removeLayer(draftLine);
+      draftLine = L.polyline([...STATE.draftPts, STATE.draftPts[0]], {
+        color: '#38bdf8', weight: 2.5, dashArray: '5,5'
+      }).addTo(mapAfter);
+    });
+    mapAfter.on('dblclick', (e) => {
+      if (!STATE.drawing) return;
+      L.DomEvent.stopPropagation(e);
+      if (STATE.draftPts.length > 3) STATE.draftPts.pop(); // remove extra click from dblclick
+      finishDrawing();
+    });
+    mapAfter.doubleClickZoom.disable();
+
+    function showToast(msg, color = '#10b981') {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.style.background = color;
+      t.classList.add('show');
+      setTimeout(() => t.classList.remove('show'), 1400);
+    }
+
+    function updateQuotas() {
+      const counts = { G1: 0, G2: 0, G3: 0, G4: 0 };
+      const sizes = { small: 0, med: 0, large: 0 };
+      Object.values(STATE.saved).forEach(r => {
+        if (r.status === 'labeled' && counts[r.label_class] !== undefined) {
+          counts[r.label_class]++;
+          if (r.area_rai < 3) sizes.small++;
+          else if (r.area_rai < 10) sizes.med++;
+          else sizes.large++;
+        }
+      });
+      const total = counts.G1 + counts.G2 + counts.G3 + counts.G4;
+      document.getElementById('totalPill').textContent = `${total} / 80`;
+      ['G1','G2','G3','G4'].forEach(g => {
+        document.getElementById('cnt'+g).textContent = `${counts[g]}/20`;
+        document.getElementById('bar'+g).style.width = `${Math.min(100, (counts[g]/20)*100)}%`;
+      });
+      document.getElementById('szSmall').textContent = `เล็ก: ${sizes.small}`;
+      document.getElementById('szMed').textContent   = `กลาง: ${sizes.med}`;
+      document.getElementById('szLarge').textContent = `ใหญ่: ${sizes.large}`;
+    }
+
+    function applyFilters() {
+      const fPool = document.getElementById('fPool').value;
+      const fStatus = document.getElementById('fStatus').value;
+      const fDist = document.getElementById('fDist').value;
+
+      STATE.filtered = STATE.candidates.filter(c => {
+        if (fPool !== 'ALL' && c.pool_name !== fPool) return false;
+        if (fDist !== 'ALL' && c.district !== fDist) return false;
+        const s = STATE.saved[c.candidate_id];
+        if (fStatus === 'TODO' && s) return false;
+        if (fStatus === 'LABELED' && (!s || s.status !== 'labeled')) return false;
+        if (fStatus === 'SKIPPED' && (!s || s.status !== 'skipped')) return false;
+        return true;
+      });
+      renderList();
+    }
+
+    function renderList() {
+      const el = document.getElementById('candList');
+      el.innerHTML = STATE.filtered.map(c => {
+        const s = STATE.saved[c.candidate_id];
+        let badge = '<span class="badge b-todo">รอตรวจ</span>';
+        if (s?.status === 'labeled') badge = `<span class="badge b-${s.label_class}">${s.label_class}</span>`;
+        else if (s?.status === 'skipped') badge = '<span class="badge b-skip">ข้าม</span>';
+        const active = c.candidate_id === STATE.curId ? 'active' : '';
+        return `
+          <div class="cand-item ${active}" onclick="selectPlot('${c.candidate_id}')">
+            <div>
+              <div style="font-weight:600">${c.candidate_id}</div>
+              <div class="cand-meta">${c.district} • ${c.lossyear !== 'none' ? 'Loss '+c.lossyear : c.pool_name.split('_')[0]}</div>
+            </div>
+            ${badge}
+          </div>`;
+      }).join('');
+    }
+
+    function selectPlot(cid) {
+      stopDrawing();
+      const c = STATE.candidates.find(x => x.candidate_id === cid);
+      if (!c) return;
+      STATE.curId = cid;
+      const s = STATE.saved[cid];
+
+      document.getElementById('curId').textContent = cid;
+      document.getElementById('curDist').textContent = `อ.${c.district}`;
+      document.getElementById('curLoss').textContent =
+        c.lossyear !== 'none' ? `Hansen: ${c.lossyear}` :
+        (c.radd_date !== 'none' ? `RADD: ${c.radd_date}` : `Pool: ${c.pool_name.split('_')[0]}`);
+      document.getElementById('curJrc').textContent = c.jrc_forest2020 ? 'JRC 2020: ป่า' : 'JRC 2020: ไม่ใช่ป่า';
+      document.getElementById('inDate').value = s?.clearing_date || (c.lossyear !== 'none' ? c.lossyear : '');
+      document.getElementById('inNotes').value = s?.notes || '';
+
+      if (pinBefore) mapBefore.removeLayer(pinBefore);
+      if (pinAfter)  mapAfter.removeLayer(pinAfter);
+      pinBefore = L.circleMarker([c.lat, c.lon], { radius: 6, color: '#fff', fillColor: '#ef4444', fillOpacity: 1, weight: 2 }).addTo(mapBefore);
+      pinAfter  = L.circleMarker([c.lat, c.lon], { radius: 6, color: '#fff', fillColor: '#ef4444', fillOpacity: 1, weight: 2 }).addTo(mapAfter);
+
+      STATE.syncing = true;
+      mapBefore.setView([c.lat, c.lon], 16, { animate: false });
+      mapAfter.setView([c.lat, c.lon], 16, { animate: false });
+      STATE.syncing = false;
+
+      if (s?.polygon_ring) {
+        STATE.ring = JSON.parse(JSON.stringify(s.polygon_ring));
+      } else if (c.starter_ring) {
+        STATE.ring = JSON.parse(JSON.stringify(c.starter_ring));
+      } else {
+        // Auto-create a stratified starter box (2, 4, 12 rai) so user can label in 1 keypress
+        const cycle = c.pool_name === 'LOSS_POST2020' ? [2.0, 4.0, 4.0] : [2.0, 4.0, 12.0];
+        const idx = STATE.candidates.findIndex(x => x.candidate_id === cid);
+        makeSquarePreset(cycle[Math.abs(idx) % cycle.length]);
+        renderList();
+        return;
+      }
+      renderPolygon();
+      renderList();
+    }
+
+    function stepPlot(delta) {
+      if (!STATE.filtered.length) return;
+      const idx = STATE.filtered.findIndex(x => x.candidate_id === STATE.curId);
+      const nextIdx = idx < 0 ? 0 : (idx + delta + STATE.filtered.length) % STATE.filtered.length;
+      selectPlot(STATE.filtered[nextIdx].candidate_id);
+    }
+
+    async function submitLabel(cls) {
+      if (!STATE.curId) return;
+      if (!STATE.ring || STATE.ring.length < 4) {
+        // Auto-create a ~4 rai editable starter polygon if user didn't draw one yet
+        makeSquarePreset(4.0);
+        showToast('สร้างขอบแปลงเริ่มต้น ~4 ไร่ให้แล้ว (ลากมุมปรับได้ หรือกดติดป้ายอีกครั้ง)', '#f59e0b');
+        return;
+      }
+      const payload = {
+        candidate_id: STATE.curId,
+        status: 'labeled',
+        label_class: cls,
+        clearing_date: document.getElementById('inDate').value,
+        notes: document.getElementById('inNotes').value,
+        polygon_ring: STATE.ring,
+      };
+      const res = await fetch('/api/save', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json();
+      if (data.ok) {
+        STATE.saved[STATE.curId] = data.item;
+        updateQuotas();
+        showToast(`บันทึก ${STATE.curId} → ${cls} (${data.item.area_rai} ไร่)`);
+        const curIdx = STATE.filtered.findIndex(x => x.candidate_id === STATE.curId);
+        applyFilters();
+        if (document.getElementById('chkAutoNext').checked && STATE.filtered.length) {
+          const next = STATE.filtered[Math.min(curIdx, STATE.filtered.length - 1)] || STATE.filtered[0];
+          selectPlot(next.candidate_id);
+        }
+      }
+    }
+
+    async function submitSkip() {
+      if (!STATE.curId) return;
+      const res = await fetch('/api/save', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ candidate_id: STATE.curId, status: 'skipped' }),
+      });
+      const data = await res.json();
+      if (data.ok) {
+        STATE.saved[STATE.curId] = data.item;
+        showToast(`ข้าม ${STATE.curId}`, '#94a3b8');
+        const curIdx = STATE.filtered.findIndex(x => x.candidate_id === STATE.curId);
+        applyFilters();
+        if (STATE.filtered.length) {
+          const next = STATE.filtered[Math.min(curIdx, STATE.filtered.length - 1)] || STATE.filtered[0];
+          selectPlot(next.candidate_id);
+        }
+      }
+    }
+
+    // Wire buttons & shortcuts
+    document.getElementById('btnDraw').onclick = () => STATE.drawing ? finishDrawing() : startDrawing();
+    document.getElementById('btnPresetSmall').onclick = () => makeSquarePreset(2.0);
+    document.getElementById('btnPresetMed').onclick   = () => makeSquarePreset(4.0);
+    document.getElementById('btnPresetLarge').onclick = () => makeSquarePreset(12.0);
+    document.getElementById('btnClearPoly').onclick   = () => { stopDrawing(); STATE.ring = null; renderPolygon(); };
+    document.getElementById('btnPrev').onclick = () => stepPlot(-1);
+    document.getElementById('btnNext').onclick = () => stepPlot(1);
+    document.getElementById('fPool').onchange   = applyFilters;
+    document.getElementById('fStatus').onchange = applyFilters;
+    document.getElementById('fDist').onchange   = applyFilters;
+
+    window.addEventListener('keydown', (e) => {
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) return;
+      if (e.key === '1') submitLabel('G1');
+      else if (e.key === '2') submitLabel('G2');
+      else if (e.key === '3') submitLabel('G3');
+      else if (e.key === '4') submitLabel('G4');
+      else if (e.key.toLowerCase() === 's') submitSkip();
+      else if (e.key.toLowerCase() === 'd') STATE.drawing ? finishDrawing() : startDrawing();
+      else if (e.key === 'Enter' && STATE.drawing) finishDrawing();
+      else if (e.key === 'Escape' && STATE.drawing) { stopDrawing(); renderPolygon(); }
+      else if (e.key === 'ArrowRight') stepPlot(1);
+      else if (e.key === 'ArrowLeft') stepPlot(-1);
+    });
+
+    async function boot() {
+      await initImageryLayers();
+      const res = await fetch('/api/data');
+      const data = await res.json();
+      STATE.candidates = data.candidates;
+      STATE.saved = data.saved || {};
+      document.getElementById('savePathHint').textContent = `Auto-save → ${data.out_geojson}`;
+      updateQuotas();
+      applyFilters();
+      if (STATE.filtered.length) selectPlot(STATE.filtered[0].candidate_id);
+      else if (STATE.candidates.length) selectPlot(STATE.candidates[0].candidate_id);
+    }
+    boot();
+  </script>
+</body>
+</html>

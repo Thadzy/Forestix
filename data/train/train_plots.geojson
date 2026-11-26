@@ -1,0 +1,6821 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.160378,
+              18.680132
+            ],
+            [
+              101.160304,
+              18.679999
+            ],
+            [
+              101.160384,
+              18.679757
+            ],
+            [
+              101.160572,
+              18.679656
+            ],
+            [
+              101.160749,
+              18.679652
+            ],
+            [
+              101.160872,
+              18.679778
+            ],
+            [
+              101.160819,
+              18.680027
+            ],
+            [
+              101.160568,
+              18.680191
+            ],
+            [
+              101.160378,
+              18.680132
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-MC-002",
+        "candidate_id": "G2-MC-002",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 1.6,
+        "pure_pixels": 10,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.955614,
+              18.690378
+            ],
+            [
+              100.955467,
+              18.690149
+            ],
+            [
+              100.955478,
+              18.689941
+            ],
+            [
+              100.955701,
+              18.689847
+            ],
+            [
+              100.955917,
+              18.689839
+            ],
+            [
+              100.956047,
+              18.69005
+            ],
+            [
+              100.956064,
+              18.690291
+            ],
+            [
+              100.955917,
+              18.690425
+            ],
+            [
+              100.955614,
+              18.690378
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-MC-008",
+        "candidate_id": "G2-MC-008",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 2.0,
+        "pure_pixels": 14,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.055424,
+              18.653845
+            ],
+            [
+              101.055112,
+              18.653826
+            ],
+            [
+              101.054988,
+              18.653607
+            ],
+            [
+              101.054954,
+              18.653311
+            ],
+            [
+              101.055049,
+              18.653174
+            ],
+            [
+              101.055281,
+              18.653129
+            ],
+            [
+              101.0555,
+              18.653314
+            ],
+            [
+              101.055501,
+              18.653633
+            ],
+            [
+              101.055424,
+              18.653845
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-MC-010",
+        "candidate_id": "G2-MC-010",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 21,
+        "area_rai": 2.3,
+        "pure_pixels": 17,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.14555,
+              18.6985
+            ],
+            [
+              101.145329,
+              18.698199
+            ],
+            [
+              101.145284,
+              18.697916
+            ],
+            [
+              101.145597,
+              18.697779
+            ],
+            [
+              101.145994,
+              18.697977
+            ],
+            [
+              101.146214,
+              18.698136
+            ],
+            [
+              101.146287,
+              18.69843
+            ],
+            [
+              101.145985,
+              18.698553
+            ],
+            [
+              101.14555,
+              18.6985
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-MC-013",
+        "candidate_id": "G2-MC-013",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 3.8,
+        "pure_pixels": 33,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.93557,
+              18.686254
+            ],
+            [
+              100.935265,
+              18.686464
+            ],
+            [
+              100.935002,
+              18.686415
+            ],
+            [
+              100.934602,
+              18.686325
+            ],
+            [
+              100.934425,
+              18.685971
+            ],
+            [
+              100.934728,
+              18.685714
+            ],
+            [
+              100.935176,
+              18.685778
+            ],
+            [
+              100.935515,
+              18.685871
+            ],
+            [
+              100.93557,
+              18.686254
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-MC-015",
+        "candidate_id": "G2-MC-015",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 55,
+        "area_rai": 4.5,
+        "pure_pixels": 42,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.161516,
+              18.682298
+            ],
+            [
+              101.161556,
+              18.681927
+            ],
+            [
+              101.161845,
+              18.681703
+            ],
+            [
+              101.162142,
+              18.681864
+            ],
+            [
+              101.162358,
+              18.682259
+            ],
+            [
+              101.162327,
+              18.682702
+            ],
+            [
+              101.161958,
+              18.682841
+            ],
+            [
+              101.161646,
+              18.682737
+            ],
+            [
+              101.161516,
+              18.682298
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-MC-017",
+        "candidate_id": "G2-MC-017",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 5.2,
+        "pure_pixels": 52,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.999314,
+              18.809886
+            ],
+            [
+              100.998837,
+              18.810015
+            ],
+            [
+              100.998235,
+              18.80965
+            ],
+            [
+              100.997927,
+              18.809046
+            ],
+            [
+              100.997805,
+              18.808563
+            ],
+            [
+              100.998522,
+              18.808586
+            ],
+            [
+              100.999071,
+              18.808934
+            ],
+            [
+              100.999444,
+              18.809304
+            ],
+            [
+              100.999314,
+              18.809886
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-MC-024",
+        "candidate_id": "G2-MC-024",
+        "label_class": "G2",
+        "clearing_date": "2012",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "2012",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 66,
+        "area_rai": 10.99,
+        "pure_pixels": 126,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.101491,
+              18.666486
+            ],
+            [
+              101.101274,
+              18.665777
+            ],
+            [
+              101.101616,
+              18.665297
+            ],
+            [
+              101.102097,
+              18.665033
+            ],
+            [
+              101.102557,
+              18.66531
+            ],
+            [
+              101.102833,
+              18.665966
+            ],
+            [
+              101.102758,
+              18.666347
+            ],
+            [
+              101.101996,
+              18.666595
+            ],
+            [
+              101.101491,
+              18.666486
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-MC-025",
+        "candidate_id": "G2-MC-025",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 12.5,
+        "pure_pixels": 150,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.956299,
+              19.149028
+            ],
+            [
+              100.956131,
+              19.14882
+            ],
+            [
+              100.956013,
+              19.148532
+            ],
+            [
+              100.956205,
+              19.148206
+            ],
+            [
+              100.956416,
+              19.148047
+            ],
+            [
+              100.956503,
+              19.148242
+            ],
+            [
+              100.956535,
+              19.148578
+            ],
+            [
+              100.956459,
+              19.148847
+            ],
+            [
+              100.956299,
+              19.149028
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-PUA-001",
+        "candidate_id": "G2-PUA-001",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A101 (Active paddy field) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 2.3,
+        "pure_pixels": 14,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A101",
+        "ldd_lu_des_en": "Active paddy field",
+        "ldd_lu_des_th": "นาข้าว"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.832277,
+              19.168237
+            ],
+            [
+              100.832259,
+              19.167884
+            ],
+            [
+              100.832479,
+              19.167623
+            ],
+            [
+              100.832751,
+              19.167752
+            ],
+            [
+              100.832915,
+              19.168117
+            ],
+            [
+              100.832891,
+              19.168506
+            ],
+            [
+              100.832783,
+              19.168767
+            ],
+            [
+              100.832466,
+              19.168596
+            ],
+            [
+              100.832277,
+              19.168237
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-PUA-002",
+        "candidate_id": "G2-PUA-002",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A101 (Active paddy field) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 3.8,
+        "pure_pixels": 33,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A101",
+        "ldd_lu_des_en": "Active paddy field",
+        "ldd_lu_des_th": "นาข้าว"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.017316,
+              19.175026
+            ],
+            [
+              101.017114,
+              19.175196
+            ],
+            [
+              101.016893,
+              19.175139
+            ],
+            [
+              101.01661,
+              19.174982
+            ],
+            [
+              101.016635,
+              19.174816
+            ],
+            [
+              101.016816,
+              19.174728
+            ],
+            [
+              101.017067,
+              19.174733
+            ],
+            [
+              101.017193,
+              19.174864
+            ],
+            [
+              101.017316,
+              19.175026
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-PUA-004",
+        "candidate_id": "G2-PUA-004",
+        "label_class": "G2",
+        "clearing_date": "2008",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "2008",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 72,
+        "area_rai": 1.6,
+        "pure_pixels": 9,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.861867,
+              19.178846
+            ],
+            [
+              100.861318,
+              19.178794
+            ],
+            [
+              100.861086,
+              19.178567
+            ],
+            [
+              100.861216,
+              19.178307
+            ],
+            [
+              100.861591,
+              19.178116
+            ],
+            [
+              100.862032,
+              19.178086
+            ],
+            [
+              100.862188,
+              19.178322
+            ],
+            [
+              100.86217,
+              19.178573
+            ],
+            [
+              100.861867,
+              19.178846
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-PUA-006",
+        "candidate_id": "G2-PUA-006",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A101 (Active paddy field) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 4.5,
+        "pure_pixels": 43,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A101",
+        "ldd_lu_des_en": "Active paddy field",
+        "ldd_lu_des_th": "นาข้าว"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.942252,
+              19.082864
+            ],
+            [
+              100.942238,
+              19.082756
+            ],
+            [
+              100.942019,
+              19.082842
+            ],
+            [
+              100.94194,
+              19.082801
+            ],
+            [
+              100.941998,
+              19.082609
+            ],
+            [
+              100.942144,
+              19.082512
+            ],
+            [
+              100.942424,
+              19.082497
+            ],
+            [
+              100.942549,
+              19.082421
+            ],
+            [
+              100.942372,
+              19.082095
+            ],
+            [
+              100.942541,
+              19.081877
+            ],
+            [
+              100.941781,
+              19.081593
+            ],
+            [
+              100.941834,
+              19.081004
+            ],
+            [
+              100.941748,
+              19.080657
+            ],
+            [
+              100.94152,
+              19.080716
+            ],
+            [
+              100.941449,
+              19.0808
+            ],
+            [
+              100.94116,
+              19.0822
+            ],
+            [
+              100.941205,
+              19.082558
+            ],
+            [
+              100.941577,
+              19.083435
+            ],
+            [
+              100.941547,
+              19.083613
+            ],
+            [
+              100.941606,
+              19.083835
+            ],
+            [
+              100.942021,
+              19.084747
+            ],
+            [
+              100.942191,
+              19.084615
+            ],
+            [
+              100.942084,
+              19.084093
+            ],
+            [
+              100.941896,
+              19.083829
+            ],
+            [
+              100.941895,
+              19.083737
+            ],
+            [
+              100.942006,
+              19.083589
+            ],
+            [
+              100.942034,
+              19.083284
+            ],
+            [
+              100.942164,
+              19.083098
+            ],
+            [
+              100.942252,
+              19.082864
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-PUA-007",
+        "candidate_id": "G2-PUA-007",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A101 (Active paddy field) | ldd_2567_parcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 12,
+        "area_rai": 18.3,
+        "pure_pixels": 183,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A101",
+        "ldd_lu_des_en": "Active paddy field",
+        "ldd_lu_des_th": "นาข้าว"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.899388,
+              19.20377
+            ],
+            [
+              100.899127,
+              19.203971
+            ],
+            [
+              100.898655,
+              19.20385
+            ],
+            [
+              100.8984,
+              19.203541
+            ],
+            [
+              100.898306,
+              19.203183
+            ],
+            [
+              100.898599,
+              19.203022
+            ],
+            [
+              100.899126,
+              19.203146
+            ],
+            [
+              100.899424,
+              19.203544
+            ],
+            [
+              100.899388,
+              19.20377
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-PUA-008",
+        "candidate_id": "G2-PUA-008",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A101 (Active paddy field) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 5.2,
+        "pure_pixels": 52,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A101",
+        "ldd_lu_des_en": "Active paddy field",
+        "ldd_lu_des_th": "นาข้าว"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.926625,
+              19.013814
+            ],
+            [
+              100.926253,
+              19.013374
+            ],
+            [
+              100.92614,
+              19.012783
+            ],
+            [
+              100.926724,
+              19.012638
+            ],
+            [
+              100.927443,
+              19.012755
+            ],
+            [
+              100.927741,
+              19.013111
+            ],
+            [
+              100.927587,
+              19.013666
+            ],
+            [
+              100.927135,
+              19.013946
+            ],
+            [
+              100.926625,
+              19.013814
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-PUA-010",
+        "candidate_id": "G2-PUA-010",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A101 (Active paddy field) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 11.0,
+        "pure_pixels": 129,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A101",
+        "ldd_lu_des_en": "Active paddy field",
+        "ldd_lu_des_th": "นาข้าว"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.940598,
+              19.223018
+            ],
+            [
+              100.940883,
+              19.222359
+            ],
+            [
+              100.941466,
+              19.222214
+            ],
+            [
+              100.941999,
+              19.222371
+            ],
+            [
+              100.942413,
+              19.222823
+            ],
+            [
+              100.942047,
+              19.223388
+            ],
+            [
+              100.94153,
+              19.223602
+            ],
+            [
+              100.940816,
+              19.223339
+            ],
+            [
+              100.940598,
+              19.223018
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-PUA-011",
+        "candidate_id": "G2-PUA-011",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A101 (Active paddy field) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 12.5,
+        "pure_pixels": 150,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A101",
+        "ldd_lu_des_en": "Active paddy field",
+        "ldd_lu_des_th": "นาข้าว"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.943601,
+              19.111763
+            ],
+            [
+              100.943069,
+              19.111866
+            ],
+            [
+              100.942547,
+              19.111538
+            ],
+            [
+              100.942267,
+              19.110984
+            ],
+            [
+              100.94239,
+              19.110383
+            ],
+            [
+              100.94311,
+              19.110312
+            ],
+            [
+              100.943714,
+              19.110685
+            ],
+            [
+              100.944049,
+              19.111258
+            ],
+            [
+              100.943601,
+              19.111763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-PUA-012",
+        "candidate_id": "G2-PUA-012",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A101 (Active paddy field) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 14.0,
+        "pure_pixels": 171,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A101",
+        "ldd_lu_des_en": "Active paddy field",
+        "ldd_lu_des_th": "นาข้าว"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.887023,
+              19.079309
+            ],
+            [
+              100.887153,
+              19.078735
+            ],
+            [
+              100.887733,
+              19.078404
+            ],
+            [
+              100.888329,
+              19.078382
+            ],
+            [
+              100.888629,
+              19.078771
+            ],
+            [
+              100.888503,
+              19.079314
+            ],
+            [
+              100.88795,
+              19.079608
+            ],
+            [
+              100.887346,
+              19.079606
+            ],
+            [
+              100.887023,
+              19.079309
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-TWP-002",
+        "candidate_id": "G2-TWP-002",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A101 (Active paddy field) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 11.0,
+        "pure_pixels": 129,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A101",
+        "ldd_lu_des_en": "Active paddy field",
+        "ldd_lu_des_th": "นาข้าว"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.780913,
+              19.092983
+            ],
+            [
+              100.780772,
+              19.092775
+            ],
+            [
+              100.780624,
+              19.092811
+            ],
+            [
+              100.780563,
+              19.092758
+            ],
+            [
+              100.780549,
+              19.091954
+            ],
+            [
+              100.780696,
+              19.091774
+            ],
+            [
+              100.781011,
+              19.091776
+            ],
+            [
+              100.781113,
+              19.091534
+            ],
+            [
+              100.780393,
+              19.091185
+            ],
+            [
+              100.780216,
+              19.091039
+            ],
+            [
+              100.780059,
+              19.090884
+            ],
+            [
+              100.779758,
+              19.090347
+            ],
+            [
+              100.779499,
+              19.090332
+            ],
+            [
+              100.779423,
+              19.090254
+            ],
+            [
+              100.779137,
+              19.090319
+            ],
+            [
+              100.779128,
+              19.090763
+            ],
+            [
+              100.779247,
+              19.091002
+            ],
+            [
+              100.77922,
+              19.09143
+            ],
+            [
+              100.779326,
+              19.091547
+            ],
+            [
+              100.779684,
+              19.092455
+            ],
+            [
+              100.779838,
+              19.093103
+            ],
+            [
+              100.780066,
+              19.09314
+            ],
+            [
+              100.780204,
+              19.093446
+            ],
+            [
+              100.780284,
+              19.09384
+            ],
+            [
+              100.780244,
+              19.094415
+            ],
+            [
+              100.780842,
+              19.094336
+            ],
+            [
+              100.780808,
+              19.093907
+            ],
+            [
+              100.7809,
+              19.093542
+            ],
+            [
+              100.780916,
+              19.093026
+            ],
+            [
+              100.780913,
+              19.092983
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-TWP-005",
+        "candidate_id": "G2-TWP-005",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A101 (Active paddy field) | ldd_2567_parcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 27.67,
+        "pure_pixels": 325,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A101",
+        "ldd_lu_des_en": "Active paddy field",
+        "ldd_lu_des_th": "นาข้าว"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.892122,
+              18.997978
+            ],
+            [
+              100.891982,
+              18.998125
+            ],
+            [
+              100.891776,
+              18.998178
+            ],
+            [
+              100.891623,
+              18.998043
+            ],
+            [
+              100.891687,
+              18.997779
+            ],
+            [
+              100.891806,
+              18.997646
+            ],
+            [
+              100.892039,
+              18.997605
+            ],
+            [
+              100.892171,
+              18.997716
+            ],
+            [
+              100.892122,
+              18.997978
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-TWP-011",
+        "candidate_id": "G2-TWP-011",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 1.6,
+        "pure_pixels": 9,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.716368,
+              19.282415
+            ],
+            [
+              100.716137,
+              19.282257
+            ],
+            [
+              100.716036,
+              19.282062
+            ],
+            [
+              100.716212,
+              19.281942
+            ],
+            [
+              100.716656,
+              19.281956
+            ],
+            [
+              100.716782,
+              19.282153
+            ],
+            [
+              100.716883,
+              19.28241
+            ],
+            [
+              100.716689,
+              19.2825
+            ],
+            [
+              100.716368,
+              19.282415
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-TWP-016",
+        "candidate_id": "G2-TWP-016",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A602 (Corn(Shifting cultivation)) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 2.3,
+        "pure_pixels": 16,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A602",
+        "ldd_lu_des_en": "Corn(Shifting cultivation)",
+        "ldd_lu_des_th": "ข้าวโพด(ไร่หมุนเวียน)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.816173,
+              19.138454
+            ],
+            [
+              100.816292,
+              19.138406
+            ],
+            [
+              100.816411,
+              19.138461
+            ],
+            [
+              100.816397,
+              19.138793
+            ],
+            [
+              100.816533,
+              19.138704
+            ],
+            [
+              100.81668,
+              19.138472
+            ],
+            [
+              100.816499,
+              19.138085
+            ],
+            [
+              100.816507,
+              19.137981
+            ],
+            [
+              100.816774,
+              19.137853
+            ],
+            [
+              100.816692,
+              19.137699
+            ],
+            [
+              100.816745,
+              19.137602
+            ],
+            [
+              100.817234,
+              19.137552
+            ],
+            [
+              100.817107,
+              19.137113
+            ],
+            [
+              100.81652,
+              19.1371
+            ],
+            [
+              100.816417,
+              19.137318
+            ],
+            [
+              100.816014,
+              19.137349
+            ],
+            [
+              100.81559,
+              19.137204
+            ],
+            [
+              100.815368,
+              19.137058
+            ],
+            [
+              100.814852,
+              19.137102
+            ],
+            [
+              100.814746,
+              19.136942
+            ],
+            [
+              100.814517,
+              19.136951
+            ],
+            [
+              100.814314,
+              19.137182
+            ],
+            [
+              100.814317,
+              19.137461
+            ],
+            [
+              100.814457,
+              19.137669
+            ],
+            [
+              100.814893,
+              19.138075
+            ],
+            [
+              100.815264,
+              19.138766
+            ],
+            [
+              100.81536,
+              19.138737
+            ],
+            [
+              100.815376,
+              19.138646
+            ],
+            [
+              100.815083,
+              19.137838
+            ],
+            [
+              100.815121,
+              19.137797
+            ],
+            [
+              100.815636,
+              19.137664
+            ],
+            [
+              100.815898,
+              19.138569
+            ],
+            [
+              100.815891,
+              19.13864
+            ],
+            [
+              100.815743,
+              19.138776
+            ],
+            [
+              100.815773,
+              19.13891
+            ],
+            [
+              100.816034,
+              19.138972
+            ],
+            [
+              100.816103,
+              19.1385
+            ],
+            [
+              100.816173,
+              19.138454
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-TWP-018",
+        "candidate_id": "G2-TWP-018",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_parcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 19.3,
+        "pure_pixels": 182,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.656945,
+              19.261658
+            ],
+            [
+              100.656742,
+              19.261489
+            ],
+            [
+              100.656822,
+              19.261059
+            ],
+            [
+              100.657029,
+              19.260805
+            ],
+            [
+              100.657345,
+              19.260698
+            ],
+            [
+              100.657538,
+              19.261022
+            ],
+            [
+              100.657486,
+              19.261368
+            ],
+            [
+              100.657324,
+              19.261532
+            ],
+            [
+              100.656945,
+              19.261658
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-TWP-026",
+        "candidate_id": "G2-TWP-026",
+        "label_class": "G2",
+        "clearing_date": "2019",
+        "notes": "LDD2567:A602 (Corn(Shifting cultivation)) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "2019",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 3.8,
+        "pure_pixels": 34,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A602",
+        "ldd_lu_des_en": "Corn(Shifting cultivation)",
+        "ldd_lu_des_th": "ข้าวโพด(ไร่หมุนเวียน)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.760206,
+              19.192668
+            ],
+            [
+              100.760287,
+              19.19252
+            ],
+            [
+              100.760232,
+              19.192302
+            ],
+            [
+              100.760049,
+              19.192139
+            ],
+            [
+              100.759902,
+              19.192092
+            ],
+            [
+              100.759815,
+              19.192464
+            ],
+            [
+              100.759669,
+              19.192616
+            ],
+            [
+              100.759423,
+              19.192667
+            ],
+            [
+              100.758931,
+              19.192643
+            ],
+            [
+              100.758729,
+              19.19271
+            ],
+            [
+              100.758684,
+              19.192806
+            ],
+            [
+              100.758737,
+              19.192902
+            ],
+            [
+              100.759221,
+              19.193061
+            ],
+            [
+              100.760161,
+              19.192708
+            ],
+            [
+              100.760206,
+              19.192668
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-TWP-027",
+        "candidate_id": "G2-TWP-027",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A101 (Active paddy field) | ldd_2567_parcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 4.34,
+        "pure_pixels": 28,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A101",
+        "ldd_lu_des_en": "Active paddy field",
+        "ldd_lu_des_th": "นาข้าว"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.928214,
+              18.994415
+            ],
+            [
+              100.928008,
+              18.994412
+            ],
+            [
+              100.927799,
+              18.99432
+            ],
+            [
+              100.927743,
+              18.994112
+            ],
+            [
+              100.92775,
+              18.993871
+            ],
+            [
+              100.927987,
+              18.993817
+            ],
+            [
+              100.928228,
+              18.993887
+            ],
+            [
+              100.928322,
+              18.994105
+            ],
+            [
+              100.928214,
+              18.994415
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G2-TWP-030",
+        "candidate_id": "G2-TWP-030",
+        "label_class": "G2",
+        "clearing_date": "",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "G2_EXISTING_CROPLAND",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 0,
+        "area_rai": 2.0,
+        "pure_pixels": 14,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.177648,
+              18.796318
+            ],
+            [
+              101.177423,
+              18.796227
+            ],
+            [
+              101.177299,
+              18.796118
+            ],
+            [
+              101.177315,
+              18.795862
+            ],
+            [
+              101.177532,
+              18.795738
+            ],
+            [
+              101.177734,
+              18.795795
+            ],
+            [
+              101.177839,
+              18.795978
+            ],
+            [
+              101.177734,
+              18.796227
+            ],
+            [
+              101.177648,
+              18.796318
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-MC-004",
+        "candidate_id": "G4-MC-004",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 85,
+        "area_rai": 1.6,
+        "pure_pixels": 10,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.997586,
+              18.827444
+            ],
+            [
+              100.997374,
+              18.82754
+            ],
+            [
+              100.997124,
+              18.827607
+            ],
+            [
+              100.99701,
+              18.827387
+            ],
+            [
+              100.997027,
+              18.827183
+            ],
+            [
+              100.997135,
+              18.827002
+            ],
+            [
+              100.99743,
+              18.826991
+            ],
+            [
+              100.997584,
+              18.827213
+            ],
+            [
+              100.997586,
+              18.827444
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-MC-005",
+        "candidate_id": "G4-MC-005",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 6,
+        "area_rai": 2.0,
+        "pure_pixels": 14,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.010864,
+              18.688808
+            ],
+            [
+              101.010996,
+              18.688609
+            ],
+            [
+              101.011232,
+              18.688493
+            ],
+            [
+              101.011494,
+              18.688552
+            ],
+            [
+              101.011715,
+              18.68872
+            ],
+            [
+              101.011558,
+              18.688944
+            ],
+            [
+              101.011281,
+              18.689025
+            ],
+            [
+              101.010948,
+              18.688999
+            ],
+            [
+              101.010864,
+              18.688808
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-MC-006",
+        "candidate_id": "G4-MC-006",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 85,
+        "area_rai": 2.3,
+        "pure_pixels": 16,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.172477,
+              18.845109
+            ],
+            [
+              101.172233,
+              18.845426
+            ],
+            [
+              101.171863,
+              18.845429
+            ],
+            [
+              101.171531,
+              18.845267
+            ],
+            [
+              101.171376,
+              18.844994
+            ],
+            [
+              101.171652,
+              18.844775
+            ],
+            [
+              101.171989,
+              18.844734
+            ],
+            [
+              101.17224,
+              18.844892
+            ],
+            [
+              101.172477,
+              18.845109
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-MC-007",
+        "candidate_id": "G4-MC-007",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 89,
+        "area_rai": 3.8,
+        "pure_pixels": 34,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.159412,
+              18.770046
+            ],
+            [
+              101.15908,
+              18.770103
+            ],
+            [
+              101.158779,
+              18.769883
+            ],
+            [
+              101.158742,
+              18.769546
+            ],
+            [
+              101.159049,
+              18.769253
+            ],
+            [
+              101.159291,
+              18.769219
+            ],
+            [
+              101.159644,
+              18.769454
+            ],
+            [
+              101.159741,
+              18.769716
+            ],
+            [
+              101.159412,
+              18.770046
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-MC-008",
+        "candidate_id": "G4-MC-008",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 82,
+        "area_rai": 4.5,
+        "pure_pixels": 43,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.127498,
+              18.64313
+            ],
+            [
+              101.12716,
+              18.643198
+            ],
+            [
+              101.126719,
+              18.643001
+            ],
+            [
+              101.126712,
+              18.642645
+            ],
+            [
+              101.126834,
+              18.642313
+            ],
+            [
+              101.127179,
+              18.642169
+            ],
+            [
+              101.127543,
+              18.642453
+            ],
+            [
+              101.127668,
+              18.642682
+            ],
+            [
+              101.127498,
+              18.64313
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-MC-010",
+        "candidate_id": "G4-MC-010",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 91,
+        "area_rai": 5.2,
+        "pure_pixels": 52,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.212129,
+              18.874287
+            ],
+            [
+              101.211635,
+              18.874094
+            ],
+            [
+              101.21151,
+              18.873441
+            ],
+            [
+              101.211535,
+              18.87277
+            ],
+            [
+              101.211968,
+              18.872675
+            ],
+            [
+              101.212475,
+              18.872924
+            ],
+            [
+              101.212769,
+              18.873276
+            ],
+            [
+              101.212576,
+              18.874003
+            ],
+            [
+              101.212129,
+              18.874287
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-MC-011",
+        "candidate_id": "G4-MC-011",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 87,
+        "area_rai": 11.0,
+        "pure_pixels": 129,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.992073,
+              18.82049
+            ],
+            [
+              100.99226,
+              18.819906
+            ],
+            [
+              100.992625,
+              18.819335
+            ],
+            [
+              100.993213,
+              18.819349
+            ],
+            [
+              100.993705,
+              18.819499
+            ],
+            [
+              100.993812,
+              18.820011
+            ],
+            [
+              100.993357,
+              18.820566
+            ],
+            [
+              100.992605,
+              18.820688
+            ],
+            [
+              100.992073,
+              18.82049
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-MC-012",
+        "candidate_id": "G4-MC-012",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Mae Charim",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 82,
+        "area_rai": 12.5,
+        "pure_pixels": 149,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.066136,
+              19.078909
+            ],
+            [
+              101.065953,
+              19.078818
+            ],
+            [
+              101.065961,
+              19.0786
+            ],
+            [
+              101.066075,
+              19.078493
+            ],
+            [
+              101.066311,
+              19.078523
+            ],
+            [
+              101.066547,
+              19.078682
+            ],
+            [
+              101.066613,
+              19.078864
+            ],
+            [
+              101.066435,
+              19.078965
+            ],
+            [
+              101.066136,
+              19.078909
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-PUA-001",
+        "candidate_id": "G4-PUA-001",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 95,
+        "area_rai": 1.6,
+        "pure_pixels": 9,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.082057,
+              19.123519
+            ],
+            [
+              101.081912,
+              19.123324
+            ],
+            [
+              101.081878,
+              19.123115
+            ],
+            [
+              101.082027,
+              19.122896
+            ],
+            [
+              101.08225,
+              19.122931
+            ],
+            [
+              101.082427,
+              19.123092
+            ],
+            [
+              101.082472,
+              19.123292
+            ],
+            [
+              101.082368,
+              19.123493
+            ],
+            [
+              101.082057,
+              19.123519
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-PUA-003",
+        "candidate_id": "G4-PUA-003",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 89,
+        "area_rai": 2.0,
+        "pure_pixels": 14,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.10027,
+              19.335143
+            ],
+            [
+              101.100017,
+              19.335289
+            ],
+            [
+              101.09978,
+              19.335345
+            ],
+            [
+              101.099648,
+              19.335201
+            ],
+            [
+              101.099664,
+              19.334881
+            ],
+            [
+              101.099815,
+              19.334704
+            ],
+            [
+              101.100117,
+              19.334702
+            ],
+            [
+              101.100269,
+              19.334901
+            ],
+            [
+              101.10027,
+              19.335143
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-PUA-005",
+        "candidate_id": "G4-PUA-005",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 100,
+        "area_rai": 2.3,
+        "pure_pixels": 17,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.043676,
+              18.989904
+            ],
+            [
+              101.043791,
+              18.989615
+            ],
+            [
+              101.044027,
+              18.989525
+            ],
+            [
+              101.044557,
+              18.989453
+            ],
+            [
+              101.044732,
+              18.989693
+            ],
+            [
+              101.044639,
+              18.990015
+            ],
+            [
+              101.044197,
+              18.990121
+            ],
+            [
+              101.043853,
+              18.99007
+            ],
+            [
+              101.043676,
+              18.989904
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-PUA-006",
+        "candidate_id": "G4-PUA-006",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 78,
+        "area_rai": 3.8,
+        "pure_pixels": 34,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.033852,
+              19.114368
+            ],
+            [
+              101.033817,
+              19.113967
+            ],
+            [
+              101.033953,
+              19.113764
+            ],
+            [
+              101.0343,
+              19.113801
+            ],
+            [
+              101.034573,
+              19.11409
+            ],
+            [
+              101.034565,
+              19.11465
+            ],
+            [
+              101.03444,
+              19.114864
+            ],
+            [
+              101.034095,
+              19.114724
+            ],
+            [
+              101.033852,
+              19.114368
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-PUA-007",
+        "candidate_id": "G4-PUA-007",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 85,
+        "area_rai": 4.5,
+        "pure_pixels": 42,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.051703,
+              19.093822
+            ],
+            [
+              101.051609,
+              19.093585
+            ],
+            [
+              101.05207,
+              19.093211
+            ],
+            [
+              101.052595,
+              19.093044
+            ],
+            [
+              101.05287,
+              19.093332
+            ],
+            [
+              101.052843,
+              19.093522
+            ],
+            [
+              101.052435,
+              19.093855
+            ],
+            [
+              101.051977,
+              19.093955
+            ],
+            [
+              101.051703,
+              19.093822
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-PUA-008",
+        "candidate_id": "G4-PUA-008",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 100,
+        "area_rai": 5.2,
+        "pure_pixels": 51,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.076836,
+              19.331207
+            ],
+            [
+              101.076252,
+              19.331038
+            ],
+            [
+              101.076212,
+              19.330518
+            ],
+            [
+              101.076565,
+              19.330198
+            ],
+            [
+              101.07722,
+              19.330058
+            ],
+            [
+              101.077649,
+              19.330352
+            ],
+            [
+              101.07785,
+              19.330924
+            ],
+            [
+              101.07774,
+              19.331294
+            ],
+            [
+              101.076836,
+              19.331207
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-PUA-009",
+        "candidate_id": "G4-PUA-009",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 75,
+        "area_rai": 11.0,
+        "pure_pixels": 128,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.059181,
+              19.128513
+            ],
+            [
+              101.058738,
+              19.127653
+            ],
+            [
+              101.058873,
+              19.127359
+            ],
+            [
+              101.059331,
+              19.127298
+            ],
+            [
+              101.059994,
+              19.127586
+            ],
+            [
+              101.060337,
+              19.128278
+            ],
+            [
+              101.060213,
+              19.128951
+            ],
+            [
+              101.059779,
+              19.128924
+            ],
+            [
+              101.059181,
+              19.128513
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-PUA-010",
+        "candidate_id": "G4-PUA-010",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 90,
+        "area_rai": 12.5,
+        "pure_pixels": 148,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.020767,
+              19.26755
+            ],
+            [
+              101.020302,
+              19.267155
+            ],
+            [
+              101.019953,
+              19.266785
+            ],
+            [
+              101.020093,
+              19.266055
+            ],
+            [
+              101.020723,
+              19.265666
+            ],
+            [
+              101.021088,
+              19.265825
+            ],
+            [
+              101.02162,
+              19.266554
+            ],
+            [
+              101.021225,
+              19.267107
+            ],
+            [
+              101.020767,
+              19.26755
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-PUA-011",
+        "candidate_id": "G4-PUA-011",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Pua",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 85,
+        "area_rai": 14.0,
+        "pure_pixels": 170,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.722282,
+              19.040803
+            ],
+            [
+              100.722367,
+              19.040201
+            ],
+            [
+              100.722763,
+              19.039735
+            ],
+            [
+              100.723501,
+              19.039488
+            ],
+            [
+              100.724021,
+              19.039584
+            ],
+            [
+              100.724148,
+              19.040244
+            ],
+            [
+              100.723476,
+              19.040875
+            ],
+            [
+              100.722939,
+              19.040902
+            ],
+            [
+              100.722282,
+              19.040803
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-TWP-001",
+        "candidate_id": "G4-TWP-001",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 85,
+        "area_rai": 14.0,
+        "pure_pixels": 169,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.670852,
+              19.123048
+            ],
+            [
+              100.670916,
+              19.122869
+            ],
+            [
+              100.671112,
+              19.122718
+            ],
+            [
+              100.67135,
+              19.122683
+            ],
+            [
+              100.671477,
+              19.122801
+            ],
+            [
+              100.671442,
+              19.123033
+            ],
+            [
+              100.671276,
+              19.123138
+            ],
+            [
+              100.671029,
+              19.12319
+            ],
+            [
+              100.670852,
+              19.123048
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-TWP-003",
+        "candidate_id": "G4-TWP-003",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 61,
+        "area_rai": 1.6,
+        "pure_pixels": 9,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.712475,
+              19.153695
+            ],
+            [
+              100.712226,
+              19.153651
+            ],
+            [
+              100.7121,
+              19.153473
+            ],
+            [
+              100.712208,
+              19.153165
+            ],
+            [
+              100.712329,
+              19.153055
+            ],
+            [
+              100.712634,
+              19.153159
+            ],
+            [
+              100.712697,
+              19.153389
+            ],
+            [
+              100.712642,
+              19.153588
+            ],
+            [
+              100.712475,
+              19.153695
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-TWP-005",
+        "candidate_id": "G4-TWP-005",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 14,
+        "area_rai": 2.0,
+        "pure_pixels": 14,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.675603,
+              19.110279
+            ],
+            [
+              100.675314,
+              19.110282
+            ],
+            [
+              100.675157,
+              19.110098
+            ],
+            [
+              100.675222,
+              19.109809
+            ],
+            [
+              100.675418,
+              19.109721
+            ],
+            [
+              100.675743,
+              19.109752
+            ],
+            [
+              100.675867,
+              19.109927
+            ],
+            [
+              100.67585,
+              19.110129
+            ],
+            [
+              100.675603,
+              19.110279
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-TWP-008",
+        "candidate_id": "G4-TWP-008",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 89,
+        "area_rai": 2.3,
+        "pure_pixels": 17,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.855278,
+              19.031474
+            ],
+            [
+              100.855326,
+              19.03122
+            ],
+            [
+              100.855601,
+              19.031067
+            ],
+            [
+              100.855989,
+              19.030954
+            ],
+            [
+              100.856396,
+              19.031085
+            ],
+            [
+              100.856302,
+              19.031341
+            ],
+            [
+              100.855876,
+              19.031607
+            ],
+            [
+              100.855476,
+              19.031669
+            ],
+            [
+              100.855278,
+              19.031474
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-TWP-009",
+        "candidate_id": "G4-TWP-009",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 96,
+        "area_rai": 3.8,
+        "pure_pixels": 33,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.70314,
+              19.153664
+            ],
+            [
+              100.70295,
+              19.153488
+            ],
+            [
+              100.702851,
+              19.153105
+            ],
+            [
+              100.703035,
+              19.152696
+            ],
+            [
+              100.703337,
+              19.152636
+            ],
+            [
+              100.703569,
+              19.152812
+            ],
+            [
+              100.70372,
+              19.153221
+            ],
+            [
+              100.703488,
+              19.153544
+            ],
+            [
+              100.70314,
+              19.153664
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-TWP-010",
+        "candidate_id": "G4-TWP-010",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 59,
+        "area_rai": 4.5,
+        "pure_pixels": 43,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.881661,
+              19.050493
+            ],
+            [
+              100.881209,
+              19.050572
+            ],
+            [
+              100.88086,
+              19.050513
+            ],
+            [
+              100.880926,
+              19.050107
+            ],
+            [
+              100.881088,
+              19.049854
+            ],
+            [
+              100.881741,
+              19.049678
+            ],
+            [
+              100.88205,
+              19.04987
+            ],
+            [
+              100.88185,
+              19.050234
+            ],
+            [
+              100.881661,
+              19.050493
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-TWP-011",
+        "candidate_id": "G4-TWP-011",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 82,
+        "area_rai": 5.2,
+        "pure_pixels": 50,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.920415,
+              19.000426
+            ],
+            [
+              100.919864,
+              19.000454
+            ],
+            [
+              100.919289,
+              19.000128
+            ],
+            [
+              100.919251,
+              18.999667
+            ],
+            [
+              100.919424,
+              18.999095
+            ],
+            [
+              100.919967,
+              18.998978
+            ],
+            [
+              100.920512,
+              18.999469
+            ],
+            [
+              100.920583,
+              18.999924
+            ],
+            [
+              100.920415,
+              19.000426
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "G4-TWP-013",
+        "candidate_id": "G4-TWP-013",
+        "label_class": "G4",
+        "clearing_date": "",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "G4_INTACT_FOREST",
+        "district": "Tha Wang Pha",
+        "seed_source": "none",
+        "lossyear": "none",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 70,
+        "area_rai": 11.0,
+        "pure_pixels": 129,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.026894,
+              18.819738
+            ],
+            [
+              101.02662,
+              18.819701
+            ],
+            [
+              101.026439,
+              18.819089
+            ],
+            [
+              101.026693,
+              18.818787
+            ],
+            [
+              101.026928,
+              18.818637
+            ],
+            [
+              101.02718,
+              18.818784
+            ],
+            [
+              101.027392,
+              18.819297
+            ],
+            [
+              101.027208,
+              18.81962
+            ],
+            [
+              101.026894,
+              18.819738
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-MC-001",
+        "candidate_id": "LOSS-MC-001",
+        "label_class": "G3",
+        "clearing_date": "2023",
+        "notes": "LDD2567:A305 (Teak) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Mae Charim",
+        "seed_source": "hansen",
+        "lossyear": "2023",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 59,
+        "area_rai": 5.21,
+        "pure_pixels": 52,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A305",
+        "ldd_lu_des_en": "Teak",
+        "ldd_lu_des_th": "สัก"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.21355,
+              18.713572
+            ],
+            [
+              101.213379,
+              18.713335
+            ],
+            [
+              101.213355,
+              18.713112
+            ],
+            [
+              101.213516,
+              18.71302
+            ],
+            [
+              101.213816,
+              18.713017
+            ],
+            [
+              101.213978,
+              18.713183
+            ],
+            [
+              101.213929,
+              18.71345
+            ],
+            [
+              101.213765,
+              18.713578
+            ],
+            [
+              101.21355,
+              18.713572
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-MC-003",
+        "candidate_id": "LOSS-MC-003",
+        "label_class": "G1",
+        "clearing_date": "2021",
+        "notes": "LDD2567:A602 (Corn(Shifting cultivation)) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Mae Charim",
+        "seed_source": "hansen",
+        "lossyear": "2021",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 79,
+        "area_rai": 2.0,
+        "pure_pixels": 14,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A602",
+        "ldd_lu_des_en": "Corn(Shifting cultivation)",
+        "ldd_lu_des_th": "ข้าวโพด(ไร่หมุนเวียน)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.994195,
+              18.791552
+            ],
+            [
+              100.993872,
+              18.791257
+            ],
+            [
+              100.993907,
+              18.790736
+            ],
+            [
+              100.994107,
+              18.790508
+            ],
+            [
+              100.994411,
+              18.790349
+            ],
+            [
+              100.994693,
+              18.79056
+            ],
+            [
+              100.994702,
+              18.790934
+            ],
+            [
+              100.994522,
+              18.791366
+            ],
+            [
+              100.994195,
+              18.791552
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-MC-009",
+        "candidate_id": "LOSS-MC-009",
+        "label_class": "G1",
+        "clearing_date": "2024",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Mae Charim",
+        "seed_source": "hansen",
+        "lossyear": "2024",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 64,
+        "area_rai": 5.2,
+        "pure_pixels": 51,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.002598,
+              18.792222
+            ],
+            [
+              101.002387,
+              18.792046
+            ],
+            [
+              101.002341,
+              18.791646
+            ],
+            [
+              101.002497,
+              18.791233
+            ],
+            [
+              101.002725,
+              18.791231
+            ],
+            [
+              101.002979,
+              18.791429
+            ],
+            [
+              101.003065,
+              18.79174
+            ],
+            [
+              101.002805,
+              18.792181
+            ],
+            [
+              101.002598,
+              18.792222
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-MC-010",
+        "candidate_id": "LOSS-MC-010",
+        "label_class": "G3",
+        "clearing_date": "2025",
+        "notes": "LDD2567:A302 (Para rubber) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Mae Charim",
+        "seed_source": "hansen",
+        "lossyear": "2025",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 79,
+        "area_rai": 3.8,
+        "pure_pixels": 34,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A302",
+        "ldd_lu_des_en": "Para rubber",
+        "ldd_lu_des_th": "ยางพารา"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.039081,
+              18.847311
+            ],
+            [
+              101.038504,
+              18.847176
+            ],
+            [
+              101.038237,
+              18.846728
+            ],
+            [
+              101.038193,
+              18.846402
+            ],
+            [
+              101.038913,
+              18.846098
+            ],
+            [
+              101.039599,
+              18.846091
+            ],
+            [
+              101.039932,
+              18.846643
+            ],
+            [
+              101.039679,
+              18.846954
+            ],
+            [
+              101.039081,
+              18.847311
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-MC-020",
+        "candidate_id": "LOSS-MC-020",
+        "label_class": "G1",
+        "clearing_date": "2022",
+        "notes": "LDD2567:M102 (Shrubland) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Mae Charim",
+        "seed_source": "hansen",
+        "lossyear": "2022",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 67,
+        "area_rai": 11.0,
+        "pure_pixels": 129,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "M102",
+        "ldd_lu_des_en": "Shrubland",
+        "ldd_lu_des_th": "ทุ่งหญ้าสลับไม้พุ่ม/ไม้ละเมาะ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.018081,
+              18.778577
+            ],
+            [
+              101.017446,
+              18.778766
+            ],
+            [
+              101.017135,
+              18.778474
+            ],
+            [
+              101.017102,
+              18.777871
+            ],
+            [
+              101.017324,
+              18.777458
+            ],
+            [
+              101.018028,
+              18.777328
+            ],
+            [
+              101.018422,
+              18.777514
+            ],
+            [
+              101.018492,
+              18.778106
+            ],
+            [
+              101.018081,
+              18.778577
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-MC-023",
+        "candidate_id": "LOSS-MC-023",
+        "label_class": "G3",
+        "clearing_date": "2025",
+        "notes": "LDD2567:A305 (Teak) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Mae Charim",
+        "seed_source": "hansen",
+        "lossyear": "2025",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 64,
+        "area_rai": 11.0,
+        "pure_pixels": 130,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A305",
+        "ldd_lu_des_en": "Teak",
+        "ldd_lu_des_th": "สัก"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.228486,
+              18.832585
+            ],
+            [
+              101.228185,
+              18.832482
+            ],
+            [
+              101.228019,
+              18.832115
+            ],
+            [
+              101.228185,
+              18.831744
+            ],
+            [
+              101.228477,
+              18.831694
+            ],
+            [
+              101.228824,
+              18.831823
+            ],
+            [
+              101.228928,
+              18.832243
+            ],
+            [
+              101.228828,
+              18.832546
+            ],
+            [
+              101.228486,
+              18.832585
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-MC-025",
+        "candidate_id": "LOSS-MC-025",
+        "label_class": "G1",
+        "clearing_date": "2024-06-06",
+        "notes": "LDD2567:A600 (Bush fallow) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Mae Charim",
+        "seed_source": "radd",
+        "lossyear": "none",
+        "radd_date": "2024-06-06",
+        "jrc_forest2020": 1,
+        "treecover2000": 86,
+        "area_rai": 4.5,
+        "pure_pixels": 43,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A600",
+        "ldd_lu_des_en": "Bush fallow",
+        "ldd_lu_des_th": "ไร่หมุนเวียนร้าง"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.23134,
+              18.782806
+            ],
+            [
+              101.231058,
+              18.783305
+            ],
+            [
+              101.230413,
+              18.783205
+            ],
+            [
+              101.229913,
+              18.782913
+            ],
+            [
+              101.229941,
+              18.782344
+            ],
+            [
+              101.23017,
+              18.782019
+            ],
+            [
+              101.230812,
+              18.781736
+            ],
+            [
+              101.231324,
+              18.782013
+            ],
+            [
+              101.23134,
+              18.782806
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-MC-026",
+        "candidate_id": "LOSS-MC-026",
+        "label_class": "G1",
+        "clearing_date": "2024",
+        "notes": "LDD2567:F201 (Dense deciduous forest) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Mae Charim",
+        "seed_source": "hansen",
+        "lossyear": "2024",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 45,
+        "area_rai": 12.5,
+        "pure_pixels": 150,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "F201",
+        "ldd_lu_des_en": "Dense deciduous forest",
+        "ldd_lu_des_th": "ป่าผลัดใบสมบูรณ์"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.028304,
+              18.822549
+            ],
+            [
+              101.028339,
+              18.82223
+            ],
+            [
+              101.028667,
+              18.82209
+            ],
+            [
+              101.029109,
+              18.822008
+            ],
+            [
+              101.029336,
+              18.822368
+            ],
+            [
+              101.029189,
+              18.822657
+            ],
+            [
+              101.028853,
+              18.822825
+            ],
+            [
+              101.028558,
+              18.822844
+            ],
+            [
+              101.028304,
+              18.822549
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-MC-030",
+        "candidate_id": "LOSS-MC-030",
+        "label_class": "G3",
+        "clearing_date": "2024",
+        "notes": "LDD2567:A302 (Para rubber) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Mae Charim",
+        "seed_source": "hansen",
+        "lossyear": "2024",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 66,
+        "area_rai": 4.5,
+        "pure_pixels": 43,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A302",
+        "ldd_lu_des_en": "Para rubber",
+        "ldd_lu_des_th": "ยางพารา"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.213986,
+              18.718192
+            ],
+            [
+              101.214056,
+              18.717986
+            ],
+            [
+              101.213664,
+              18.718071
+            ],
+            [
+              101.213507,
+              18.718005
+            ],
+            [
+              101.21333,
+              18.717673
+            ],
+            [
+              101.213197,
+              18.717763
+            ],
+            [
+              101.213116,
+              18.717924
+            ],
+            [
+              101.213103,
+              18.718135
+            ],
+            [
+              101.21324,
+              18.718343
+            ],
+            [
+              101.213548,
+              18.718459
+            ],
+            [
+              101.21387,
+              18.718358
+            ],
+            [
+              101.213986,
+              18.718192
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-MC-031",
+        "candidate_id": "LOSS-MC-031",
+        "label_class": "G1",
+        "clearing_date": "2021",
+        "notes": "LDD2567:A602 (Corn(Shifting cultivation)) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Mae Charim",
+        "seed_source": "hansen",
+        "lossyear": "2021",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 31,
+        "area_rai": 2.82,
+        "pure_pixels": 17,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A602",
+        "ldd_lu_des_en": "Corn(Shifting cultivation)",
+        "ldd_lu_des_th": "ข้าวโพด(ไร่หมุนเวียน)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.998693,
+              18.776586
+            ],
+            [
+              100.998252,
+              18.776547
+            ],
+            [
+              100.998154,
+              18.776343
+            ],
+            [
+              100.998372,
+              18.776186
+            ],
+            [
+              100.998579,
+              18.776099
+            ],
+            [
+              100.99887,
+              18.776133
+            ],
+            [
+              100.999021,
+              18.776376
+            ],
+            [
+              100.998915,
+              18.776587
+            ],
+            [
+              100.998693,
+              18.776586
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-MC-045",
+        "candidate_id": "LOSS-MC-045",
+        "label_class": "G1",
+        "clearing_date": "2025",
+        "notes": "LDD2567:A602 (Corn(Shifting cultivation)) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Mae Charim",
+        "seed_source": "hansen",
+        "lossyear": "2025",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 56,
+        "area_rai": 2.3,
+        "pure_pixels": 16,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A602",
+        "ldd_lu_des_en": "Corn(Shifting cultivation)",
+        "ldd_lu_des_th": "ข้าวโพด(ไร่หมุนเวียน)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.211995,
+              18.707489
+            ],
+            [
+              101.211699,
+              18.707544
+            ],
+            [
+              101.211539,
+              18.707691
+            ],
+            [
+              101.211273,
+              18.708697
+            ],
+            [
+              101.211159,
+              18.709659
+            ],
+            [
+              101.211235,
+              18.709932
+            ],
+            [
+              101.211399,
+              18.710076
+            ],
+            [
+              101.211893,
+              18.71007
+            ],
+            [
+              101.212098,
+              18.709922
+            ],
+            [
+              101.212131,
+              18.709681
+            ],
+            [
+              101.211775,
+              18.70924
+            ],
+            [
+              101.211765,
+              18.709146
+            ],
+            [
+              101.212687,
+              18.708123
+            ],
+            [
+              101.212738,
+              18.707934
+            ],
+            [
+              101.212709,
+              18.70778
+            ],
+            [
+              101.212654,
+              18.707687
+            ],
+            [
+              101.212537,
+              18.707645
+            ],
+            [
+              101.211995,
+              18.707489
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-MC-046",
+        "candidate_id": "LOSS-MC-046",
+        "label_class": "G1",
+        "clearing_date": "2025",
+        "notes": "LDD2567:A600 (Bush fallow) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Mae Charim",
+        "seed_source": "hansen",
+        "lossyear": "2025",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 58,
+        "area_rai": 16.95,
+        "pure_pixels": 196,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A600",
+        "ldd_lu_des_en": "Bush fallow",
+        "ldd_lu_des_th": "ไร่หมุนเวียนร้าง"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.997675,
+              19.289479
+            ],
+            [
+              100.997404,
+              19.289506
+            ],
+            [
+              100.997048,
+              19.289639
+            ],
+            [
+              100.996935,
+              19.28986
+            ],
+            [
+              100.996934,
+              19.290171
+            ],
+            [
+              100.997145,
+              19.290617
+            ],
+            [
+              100.997613,
+              19.2908
+            ],
+            [
+              100.997801,
+              19.290702
+            ],
+            [
+              100.997878,
+              19.290393
+            ],
+            [
+              100.997998,
+              19.290264
+            ],
+            [
+              100.998049,
+              19.290071
+            ],
+            [
+              100.997963,
+              19.289713
+            ],
+            [
+              100.997756,
+              19.289502
+            ],
+            [
+              100.997675,
+              19.289479
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-PUA-004",
+        "candidate_id": "LOSS-PUA-004",
+        "label_class": "G1",
+        "clearing_date": "2023",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Pua",
+        "seed_source": "hansen",
+        "lossyear": "2023",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 49,
+        "area_rai": 7.97,
+        "pure_pixels": 88,
+        "size_bin": "mid_6_9rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.914941,
+              19.112352
+            ],
+            [
+              100.914724,
+              19.112012
+            ],
+            [
+              100.914779,
+              19.111813
+            ],
+            [
+              100.915016,
+              19.111868
+            ],
+            [
+              100.915304,
+              19.112031
+            ],
+            [
+              100.915429,
+              19.112296
+            ],
+            [
+              100.915352,
+              19.112445
+            ],
+            [
+              100.915167,
+              19.112435
+            ],
+            [
+              100.914941,
+              19.112352
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-PUA-007",
+        "candidate_id": "LOSS-PUA-007",
+        "label_class": "G3",
+        "clearing_date": "2023",
+        "notes": "LDD2567:A305 (Teak) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Pua",
+        "seed_source": "hansen",
+        "lossyear": "2023",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 66,
+        "area_rai": 2.0,
+        "pure_pixels": 12,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A305",
+        "ldd_lu_des_en": "Teak",
+        "ldd_lu_des_th": "สัก"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.101179,
+              19.21839
+            ],
+            [
+              101.10111,
+              19.218621
+            ],
+            [
+              101.100753,
+              19.218708
+            ],
+            [
+              101.100462,
+              19.218615
+            ],
+            [
+              101.100282,
+              19.218253
+            ],
+            [
+              101.100482,
+              19.217975
+            ],
+            [
+              101.100855,
+              19.217943
+            ],
+            [
+              101.101078,
+              19.218
+            ],
+            [
+              101.101179,
+              19.21839
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-PUA-009",
+        "candidate_id": "LOSS-PUA-009",
+        "label_class": "G1",
+        "clearing_date": "2024",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Pua",
+        "seed_source": "hansen",
+        "lossyear": "2024",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 76,
+        "area_rai": 3.8,
+        "pure_pixels": 35,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.093581,
+              19.040374
+            ],
+            [
+              101.093409,
+              19.040593
+            ],
+            [
+              101.092987,
+              19.040747
+            ],
+            [
+              101.092809,
+              19.040476
+            ],
+            [
+              101.092847,
+              19.04012
+            ],
+            [
+              101.093016,
+              19.039737
+            ],
+            [
+              101.093429,
+              19.039721
+            ],
+            [
+              101.093581,
+              19.039876
+            ],
+            [
+              101.093581,
+              19.040374
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-PUA-011",
+        "candidate_id": "LOSS-PUA-011",
+        "label_class": "G1",
+        "clearing_date": "2022",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Pua",
+        "seed_source": "hansen",
+        "lossyear": "2022",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 72,
+        "area_rai": 4.5,
+        "pure_pixels": 43,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.115439,
+              19.284166
+            ],
+            [
+              101.115181,
+              19.284029
+            ],
+            [
+              101.114883,
+              19.284159
+            ],
+            [
+              101.114529,
+              19.28402
+            ],
+            [
+              101.114438,
+              19.28404
+            ],
+            [
+              101.114419,
+              19.284126
+            ],
+            [
+              101.114442,
+              19.284307
+            ],
+            [
+              101.114669,
+              19.284754
+            ],
+            [
+              101.115168,
+              19.285416
+            ],
+            [
+              101.114984,
+              19.28582
+            ],
+            [
+              101.115126,
+              19.286372
+            ],
+            [
+              101.115705,
+              19.286694
+            ],
+            [
+              101.115909,
+              19.286706
+            ],
+            [
+              101.115966,
+              19.286447
+            ],
+            [
+              101.116248,
+              19.286056
+            ],
+            [
+              101.116254,
+              19.28592
+            ],
+            [
+              101.116106,
+              19.285592
+            ],
+            [
+              101.115538,
+              19.285412
+            ],
+            [
+              101.115695,
+              19.284765
+            ],
+            [
+              101.115654,
+              19.284486
+            ],
+            [
+              101.115554,
+              19.284301
+            ],
+            [
+              101.115439,
+              19.284166
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-PUA-012",
+        "candidate_id": "LOSS-PUA-012",
+        "label_class": "G1",
+        "clearing_date": "2023",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Pua",
+        "seed_source": "hansen",
+        "lossyear": "2023",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 95,
+        "area_rai": 17.12,
+        "pure_pixels": 193,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.060837,
+              19.202716
+            ],
+            [
+              101.060498,
+              19.202928
+            ],
+            [
+              101.060101,
+              19.202886
+            ],
+            [
+              101.060088,
+              19.202556
+            ],
+            [
+              101.06033,
+              19.202141
+            ],
+            [
+              101.06061,
+              19.201978
+            ],
+            [
+              101.06099,
+              19.20197
+            ],
+            [
+              101.061221,
+              19.202227
+            ],
+            [
+              101.060837,
+              19.202716
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-PUA-018",
+        "candidate_id": "LOSS-PUA-018",
+        "label_class": "G1",
+        "clearing_date": "2022",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Pua",
+        "seed_source": "hansen",
+        "lossyear": "2022",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 74,
+        "area_rai": 5.2,
+        "pure_pixels": 51,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.068694,
+              19.012875
+            ],
+            [
+              101.068425,
+              19.012363
+            ],
+            [
+              101.068642,
+              19.011902
+            ],
+            [
+              101.069196,
+              19.011533
+            ],
+            [
+              101.06959,
+              19.01151
+            ],
+            [
+              101.069911,
+              19.011949
+            ],
+            [
+              101.069689,
+              19.012601
+            ],
+            [
+              101.069296,
+              19.013002
+            ],
+            [
+              101.068694,
+              19.012875
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-PUA-026",
+        "candidate_id": "LOSS-PUA-026",
+        "label_class": "G1",
+        "clearing_date": "2023",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Pua",
+        "seed_source": "hansen",
+        "lossyear": "2023",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 85,
+        "area_rai": 11.0,
+        "pure_pixels": 129,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.928522,
+              19.238807
+            ],
+            [
+              100.928129,
+              19.238943
+            ],
+            [
+              100.928393,
+              19.239579
+            ],
+            [
+              100.928537,
+              19.239722
+            ],
+            [
+              100.928855,
+              19.239994
+            ],
+            [
+              100.928961,
+              19.239942
+            ],
+            [
+              100.928773,
+              19.238978
+            ],
+            [
+              100.928598,
+              19.238878
+            ],
+            [
+              100.928522,
+              19.238807
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-PUA-029",
+        "candidate_id": "LOSS-PUA-029",
+        "label_class": "G3",
+        "clearing_date": "2023",
+        "notes": "LDD2567:A303 (Oil palm) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Pua",
+        "seed_source": "hansen",
+        "lossyear": "2023",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 44,
+        "area_rai": 3.82,
+        "pure_pixels": 30,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A303",
+        "ldd_lu_des_en": "Oil palm",
+        "ldd_lu_des_th": "ปาล์มน้ำมัน"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.811154,
+              19.188551
+            ],
+            [
+              100.810685,
+              19.188615
+            ],
+            [
+              100.81077,
+              19.188845
+            ],
+            [
+              100.810771,
+              19.189253
+            ],
+            [
+              100.810522,
+              19.189313
+            ],
+            [
+              100.810442,
+              19.189526
+            ],
+            [
+              100.810556,
+              19.189628
+            ],
+            [
+              100.810977,
+              19.1898
+            ],
+            [
+              100.811522,
+              19.189594
+            ],
+            [
+              100.811373,
+              19.189079
+            ],
+            [
+              100.811585,
+              19.188738
+            ],
+            [
+              100.811241,
+              19.188572
+            ],
+            [
+              100.811154,
+              19.188551
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-PUA-037",
+        "candidate_id": "LOSS-PUA-037",
+        "label_class": "G1",
+        "clearing_date": "2021",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Pua",
+        "seed_source": "hansen",
+        "lossyear": "2021",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 89,
+        "area_rai": 6.56,
+        "pure_pixels": 62,
+        "size_bin": "mid_6_9rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.099948,
+              19.219025
+            ],
+            [
+              101.099508,
+              19.219209
+            ],
+            [
+              101.098847,
+              19.218768
+            ],
+            [
+              101.098668,
+              19.218271
+            ],
+            [
+              101.098819,
+              19.217552
+            ],
+            [
+              101.099364,
+              19.217552
+            ],
+            [
+              101.099849,
+              19.217867
+            ],
+            [
+              101.100108,
+              19.218356
+            ],
+            [
+              101.099948,
+              19.219025
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-PUA-039",
+        "candidate_id": "LOSS-PUA-039",
+        "label_class": "G1",
+        "clearing_date": "2024",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Pua",
+        "seed_source": "hansen",
+        "lossyear": "2024",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 76,
+        "area_rai": 12.5,
+        "pure_pixels": 150,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.995608,
+              19.214749
+            ],
+            [
+              100.99549,
+              19.214184
+            ],
+            [
+              100.996285,
+              19.213651
+            ],
+            [
+              100.996991,
+              19.213553
+            ],
+            [
+              100.997391,
+              19.213783
+            ],
+            [
+              100.997464,
+              19.214329
+            ],
+            [
+              100.996546,
+              19.214849
+            ],
+            [
+              100.995918,
+              19.215002
+            ],
+            [
+              100.995608,
+              19.214749
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-PUA-040",
+        "candidate_id": "LOSS-PUA-040",
+        "label_class": "G1",
+        "clearing_date": "2023",
+        "notes": "LDD2567:A202 (Corn) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Pua",
+        "seed_source": "hansen",
+        "lossyear": "2023",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 79,
+        "area_rai": 13.99,
+        "pure_pixels": 169,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A202",
+        "ldd_lu_des_en": "Corn",
+        "ldd_lu_des_th": "ข้าวโพด"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.908084,
+              19.232899
+            ],
+            [
+              100.908052,
+              19.232746
+            ],
+            [
+              100.90811,
+              19.232505
+            ],
+            [
+              100.908321,
+              19.232368
+            ],
+            [
+              100.908531,
+              19.232397
+            ],
+            [
+              100.908626,
+              19.232537
+            ],
+            [
+              100.908551,
+              19.232733
+            ],
+            [
+              100.908377,
+              19.232872
+            ],
+            [
+              100.908084,
+              19.232899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-PUA-052",
+        "candidate_id": "LOSS-PUA-052",
+        "label_class": "G3",
+        "clearing_date": "2021",
+        "notes": "LDD2567:A302 (Para rubber) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Pua",
+        "seed_source": "hansen",
+        "lossyear": "2021",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 76,
+        "area_rai": 1.6,
+        "pure_pixels": 9,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A302",
+        "ldd_lu_des_en": "Para rubber",
+        "ldd_lu_des_th": "ยางพารา"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.630283,
+              19.247567
+            ],
+            [
+              100.630096,
+              19.247343
+            ],
+            [
+              100.629983,
+              19.246978
+            ],
+            [
+              100.630324,
+              19.246785
+            ],
+            [
+              100.630569,
+              19.246759
+            ],
+            [
+              100.630956,
+              19.246928
+            ],
+            [
+              100.631056,
+              19.247287
+            ],
+            [
+              100.630704,
+              19.247516
+            ],
+            [
+              100.630283,
+              19.247567
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-001",
+        "candidate_id": "LOSS-TWP-001",
+        "label_class": "G1",
+        "clearing_date": "2023-02-24",
+        "notes": "LDD2567:A600 (Bush fallow) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "both",
+        "lossyear": "2022",
+        "radd_date": "2023-02-24",
+        "jrc_forest2020": 1,
+        "treecover2000": 74,
+        "area_rai": 4.5,
+        "pure_pixels": 43,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A600",
+        "ldd_lu_des_en": "Bush fallow",
+        "ldd_lu_des_th": "ไร่หมุนเวียนร้าง"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.924831,
+              19.042363
+            ],
+            [
+              100.924783,
+              19.042182
+            ],
+            [
+              100.924831,
+              19.041972
+            ],
+            [
+              100.92508,
+              19.041777
+            ],
+            [
+              100.925283,
+              19.041796
+            ],
+            [
+              100.925321,
+              19.041973
+            ],
+            [
+              100.925192,
+              19.042218
+            ],
+            [
+              100.925081,
+              19.04234
+            ],
+            [
+              100.924831,
+              19.042363
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-002",
+        "candidate_id": "LOSS-TWP-002",
+        "label_class": "G3",
+        "clearing_date": "2021",
+        "notes": "LDD2567:A302 (Para rubber) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2021",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 33,
+        "area_rai": 1.6,
+        "pure_pixels": 9,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A302",
+        "ldd_lu_des_en": "Para rubber",
+        "ldd_lu_des_th": "ยางพารา"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.753519,
+              19.067297
+            ],
+            [
+              100.752889,
+              19.067249
+            ],
+            [
+              100.752577,
+              19.067016
+            ],
+            [
+              100.752464,
+              19.067364
+            ],
+            [
+              100.752534,
+              19.06759
+            ],
+            [
+              100.752525,
+              19.067798
+            ],
+            [
+              100.752335,
+              19.067997
+            ],
+            [
+              100.752116,
+              19.068059
+            ],
+            [
+              100.752342,
+              19.068425
+            ],
+            [
+              100.753837,
+              19.068598
+            ],
+            [
+              100.75395,
+              19.06787
+            ],
+            [
+              100.753534,
+              19.067304
+            ],
+            [
+              100.753519,
+              19.067297
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-006",
+        "candidate_id": "LOSS-TWP-006",
+        "label_class": "G3",
+        "clearing_date": "2022",
+        "notes": "LDD2567:A302 (Para rubber) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2022",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 81,
+        "area_rai": 13.31,
+        "pure_pixels": 154,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A302",
+        "ldd_lu_des_en": "Para rubber",
+        "ldd_lu_des_th": "ยางพารา"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.825163,
+              19.05484
+            ],
+            [
+              100.825058,
+              19.054774
+            ],
+            [
+              100.825006,
+              19.05489
+            ],
+            [
+              100.824948,
+              19.055535
+            ],
+            [
+              100.825107,
+              19.055726
+            ],
+            [
+              100.825921,
+              19.056115
+            ],
+            [
+              100.826082,
+              19.056098
+            ],
+            [
+              100.826159,
+              19.055972
+            ],
+            [
+              100.826155,
+              19.055255
+            ],
+            [
+              100.825493,
+              19.054982
+            ],
+            [
+              100.825163,
+              19.05484
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-008",
+        "candidate_id": "LOSS-TWP-008",
+        "label_class": "G3",
+        "clearing_date": "2023",
+        "notes": "LDD2567:A305 (Teak) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2023",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 76,
+        "area_rai": 7.81,
+        "pure_pixels": 83,
+        "size_bin": "mid_6_9rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A305",
+        "ldd_lu_des_en": "Teak",
+        "ldd_lu_des_th": "สัก"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.757882,
+              19.063935
+            ],
+            [
+              100.757388,
+              19.064673
+            ],
+            [
+              100.756992,
+              19.06468
+            ],
+            [
+              100.756493,
+              19.06448
+            ],
+            [
+              100.756571,
+              19.063868
+            ],
+            [
+              100.756873,
+              19.063225
+            ],
+            [
+              100.75737,
+              19.063152
+            ],
+            [
+              100.757733,
+              19.063538
+            ],
+            [
+              100.757882,
+              19.063935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-009",
+        "candidate_id": "LOSS-TWP-009",
+        "label_class": "G3",
+        "clearing_date": "2024",
+        "notes": "LDD2567:A315 (Bamboo) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2024",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 72,
+        "area_rai": 11.0,
+        "pure_pixels": 129,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A315",
+        "ldd_lu_des_en": "Bamboo",
+        "ldd_lu_des_th": "ไผ่ปลูกเพื่อการค้า"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.758337,
+              19.08199
+            ],
+            [
+              100.758556,
+              19.081734
+            ],
+            [
+              100.759081,
+              19.081646
+            ],
+            [
+              100.759561,
+              19.081719
+            ],
+            [
+              100.759762,
+              19.082015
+            ],
+            [
+              100.759564,
+              19.082175
+            ],
+            [
+              100.759146,
+              19.082351
+            ],
+            [
+              100.7585,
+              19.08225
+            ],
+            [
+              100.758337,
+              19.08199
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-016",
+        "candidate_id": "LOSS-TWP-016",
+        "label_class": "G3",
+        "clearing_date": "2025",
+        "notes": "LDD2567:A305 (Teak) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2025",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 58,
+        "area_rai": 5.2,
+        "pure_pixels": 50,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A305",
+        "ldd_lu_des_en": "Teak",
+        "ldd_lu_des_th": "สัก"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.624226,
+              19.271898
+            ],
+            [
+              100.623953,
+              19.271766
+            ],
+            [
+              100.623971,
+              19.271634
+            ],
+            [
+              100.624032,
+              19.271461
+            ],
+            [
+              100.624393,
+              19.271528
+            ],
+            [
+              100.624561,
+              19.271624
+            ],
+            [
+              100.624654,
+              19.27179
+            ],
+            [
+              100.624484,
+              19.271921
+            ],
+            [
+              100.624226,
+              19.271898
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-021",
+        "candidate_id": "LOSS-TWP-021",
+        "label_class": "G1",
+        "clearing_date": "2025-01-08",
+        "notes": "LDD2567:A602 (Corn(Shifting cultivation)) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "radd",
+        "lossyear": "none",
+        "radd_date": "2025-01-08",
+        "jrc_forest2020": 1,
+        "treecover2000": 100,
+        "area_rai": 1.6,
+        "pure_pixels": 9,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A602",
+        "ldd_lu_des_en": "Corn(Shifting cultivation)",
+        "ldd_lu_des_th": "ข้าวโพด(ไร่หมุนเวียน)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.817465,
+              19.022771
+            ],
+            [
+              100.817439,
+              19.022543
+            ],
+            [
+              100.817774,
+              19.022392
+            ],
+            [
+              100.817967,
+              19.022408
+            ],
+            [
+              100.818175,
+              19.022615
+            ],
+            [
+              100.818068,
+              19.022846
+            ],
+            [
+              100.817863,
+              19.022967
+            ],
+            [
+              100.817555,
+              19.022962
+            ],
+            [
+              100.817465,
+              19.022771
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-024",
+        "candidate_id": "LOSS-TWP-024",
+        "label_class": "G1",
+        "clearing_date": "2025",
+        "notes": "LDD2567:A200 (Abandoned field crop) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2025",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 59,
+        "area_rai": 2.3,
+        "pure_pixels": 17,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A200",
+        "ldd_lu_des_en": "Abandoned field crop",
+        "ldd_lu_des_th": "ไร่ร้าง"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.660033,
+              19.077503
+            ],
+            [
+              100.659885,
+              19.077016
+            ],
+            [
+              100.659886,
+              19.076306
+            ],
+            [
+              100.659247,
+              19.075832
+            ],
+            [
+              100.659115,
+              19.075561
+            ],
+            [
+              100.658997,
+              19.075669
+            ],
+            [
+              100.658438,
+              19.075588
+            ],
+            [
+              100.658027,
+              19.076022
+            ],
+            [
+              100.657349,
+              19.076078
+            ],
+            [
+              100.657261,
+              19.076294
+            ],
+            [
+              100.657264,
+              19.07666
+            ],
+            [
+              100.657373,
+              19.076996
+            ],
+            [
+              100.657511,
+              19.077174
+            ],
+            [
+              100.65789,
+              19.077407
+            ],
+            [
+              100.658272,
+              19.077461
+            ],
+            [
+              100.65833,
+              19.077348
+            ],
+            [
+              100.658447,
+              19.077283
+            ],
+            [
+              100.658734,
+              19.077285
+            ],
+            [
+              100.65981,
+              19.077784
+            ],
+            [
+              100.659945,
+              19.077783
+            ],
+            [
+              100.660042,
+              19.077617
+            ],
+            [
+              100.660033,
+              19.077503
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-028",
+        "candidate_id": "LOSS-TWP-028",
+        "label_class": "G1",
+        "clearing_date": "2023",
+        "notes": "LDD2567:A602 (Corn(Shifting cultivation)) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2023",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 91,
+        "area_rai": 29.26,
+        "pure_pixels": 379,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A602",
+        "ldd_lu_des_en": "Corn(Shifting cultivation)",
+        "ldd_lu_des_th": "ข้าวโพด(ไร่หมุนเวียน)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.65412,
+              19.201626
+            ],
+            [
+              100.654095,
+              19.201989
+            ],
+            [
+              100.653749,
+              19.202164
+            ],
+            [
+              100.653252,
+              19.201927
+            ],
+            [
+              100.653098,
+              19.201582
+            ],
+            [
+              100.653272,
+              19.20129
+            ],
+            [
+              100.653719,
+              19.201192
+            ],
+            [
+              100.654008,
+              19.201334
+            ],
+            [
+              100.65412,
+              19.201626
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-037",
+        "candidate_id": "LOSS-TWP-037",
+        "label_class": "G1",
+        "clearing_date": "2022",
+        "notes": "LDD2567:A600 (Bush fallow) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2022",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 63,
+        "area_rai": 5.2,
+        "pure_pixels": 52,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A600",
+        "ldd_lu_des_en": "Bush fallow",
+        "ldd_lu_des_th": "ไร่หมุนเวียนร้าง"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.658285,
+              19.250719
+            ],
+            [
+              100.658379,
+              19.250157
+            ],
+            [
+              100.658946,
+              19.249913
+            ],
+            [
+              100.659635,
+              19.249782
+            ],
+            [
+              100.659978,
+              19.250159
+            ],
+            [
+              100.659924,
+              19.250518
+            ],
+            [
+              100.65936,
+              19.250939
+            ],
+            [
+              100.658697,
+              19.25106
+            ],
+            [
+              100.658285,
+              19.250719
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-041",
+        "candidate_id": "LOSS-TWP-041",
+        "label_class": "G1",
+        "clearing_date": "2024",
+        "notes": "LDD2567:A600 (Bush fallow) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2024",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 58,
+        "area_rai": 11.0,
+        "pure_pixels": 129,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A600",
+        "ldd_lu_des_en": "Bush fallow",
+        "ldd_lu_des_th": "ไร่หมุนเวียนร้าง"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.745774,
+              19.036793
+            ],
+            [
+              100.746166,
+              19.036732
+            ],
+            [
+              100.746599,
+              19.036779
+            ],
+            [
+              100.746548,
+              19.036691
+            ],
+            [
+              100.746565,
+              19.036534
+            ],
+            [
+              100.746712,
+              19.036113
+            ],
+            [
+              100.746917,
+              19.035885
+            ],
+            [
+              100.747017,
+              19.035396
+            ],
+            [
+              100.746876,
+              19.03529
+            ],
+            [
+              100.746507,
+              19.035293
+            ],
+            [
+              100.746426,
+              19.035188
+            ],
+            [
+              100.745616,
+              19.035635
+            ],
+            [
+              100.745185,
+              19.035792
+            ],
+            [
+              100.744619,
+              19.035772
+            ],
+            [
+              100.744424,
+              19.036199
+            ],
+            [
+              100.744465,
+              19.036725
+            ],
+            [
+              100.745139,
+              19.036861
+            ],
+            [
+              100.745478,
+              19.036848
+            ],
+            [
+              100.745774,
+              19.036793
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-044",
+        "candidate_id": "LOSS-TWP-044",
+        "label_class": "G3",
+        "clearing_date": "2022",
+        "notes": "LDD2567:A302 (Para rubber) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2022",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 77,
+        "area_rai": 20.67,
+        "pure_pixels": 255,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A302",
+        "ldd_lu_des_en": "Para rubber",
+        "ldd_lu_des_th": "ยางพารา"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.748558,
+              19.117969
+            ],
+            [
+              100.748361,
+              19.118117
+            ],
+            [
+              100.748107,
+              19.118001
+            ],
+            [
+              100.747943,
+              19.117868
+            ],
+            [
+              100.747943,
+              19.11765
+            ],
+            [
+              100.748113,
+              19.117519
+            ],
+            [
+              100.748421,
+              19.11758
+            ],
+            [
+              100.74859,
+              19.117748
+            ],
+            [
+              100.748558,
+              19.117969
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-047",
+        "candidate_id": "LOSS-TWP-047",
+        "label_class": "G3",
+        "clearing_date": "2022",
+        "notes": "LDD2567:A302 (Para rubber) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2022",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 62,
+        "area_rai": 2.0,
+        "pure_pixels": 14,
+        "size_bin": "small_1_2rai",
+        "is_small_plot": true,
+        "ldd_lu_code": "A302",
+        "ldd_lu_des_en": "Para rubber",
+        "ldd_lu_des_th": "ยางพารา"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.858815,
+              18.986529
+            ],
+            [
+              100.858877,
+              18.986236
+            ],
+            [
+              100.859253,
+              18.985932
+            ],
+            [
+              100.859666,
+              18.985941
+            ],
+            [
+              100.859805,
+              18.98605
+            ],
+            [
+              100.859846,
+              18.986343
+            ],
+            [
+              100.859469,
+              18.986597
+            ],
+            [
+              100.858999,
+              18.986587
+            ],
+            [
+              100.858815,
+              18.986529
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-048",
+        "candidate_id": "LOSS-TWP-048",
+        "label_class": "G1",
+        "clearing_date": "2025",
+        "notes": "LDD2567:A200 (Abandoned field crop) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2025",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 83,
+        "area_rai": 3.8,
+        "pure_pixels": 34,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A200",
+        "ldd_lu_des_en": "Abandoned field crop",
+        "ldd_lu_des_th": "ไร่ร้าง"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.745873,
+              19.089191
+            ],
+            [
+              100.745115,
+              19.089168
+            ],
+            [
+              100.744906,
+              19.088474
+            ],
+            [
+              100.744959,
+              19.087921
+            ],
+            [
+              100.745267,
+              19.08761
+            ],
+            [
+              100.745867,
+              19.087765
+            ],
+            [
+              100.746268,
+              19.088225
+            ],
+            [
+              100.746218,
+              19.08896
+            ],
+            [
+              100.745873,
+              19.089191
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-051",
+        "candidate_id": "LOSS-TWP-051",
+        "label_class": "G3",
+        "clearing_date": "2024",
+        "notes": "LDD2567:A315 (Bamboo) | ldd_2567_stratified_subparcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2024",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 93,
+        "area_rai": 12.51,
+        "pure_pixels": 150,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A315",
+        "ldd_lu_des_en": "Bamboo",
+        "ldd_lu_des_th": "ไผ่ปลูกเพื่อการค้า"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.860577,
+              19.120009
+            ],
+            [
+              100.860548,
+              19.1205
+            ],
+            [
+              100.860469,
+              19.120592
+            ],
+            [
+              100.860368,
+              19.120594
+            ],
+            [
+              100.860416,
+              19.120805
+            ],
+            [
+              100.860351,
+              19.121045
+            ],
+            [
+              100.861069,
+              19.12093
+            ],
+            [
+              100.861364,
+              19.120699
+            ],
+            [
+              100.861459,
+              19.120535
+            ],
+            [
+              100.86142,
+              19.120175
+            ],
+            [
+              100.861332,
+              19.120106
+            ],
+            [
+              100.860713,
+              19.120026
+            ],
+            [
+              100.860577,
+              19.120009
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-055",
+        "candidate_id": "LOSS-TWP-055",
+        "label_class": "G1",
+        "clearing_date": "2024",
+        "notes": "LDD2567:A200 (Abandoned field crop) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2024",
+        "radd_date": "none",
+        "jrc_forest2020": 1,
+        "treecover2000": 43,
+        "area_rai": 5.83,
+        "pure_pixels": 56,
+        "size_bin": "medium_3_5rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A200",
+        "ldd_lu_des_en": "Abandoned field crop",
+        "ldd_lu_des_th": "ไร่ร้าง"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.83394,
+              19.14003
+            ],
+            [
+              100.834074,
+              19.139745
+            ],
+            [
+              100.833783,
+              19.139466
+            ],
+            [
+              100.833726,
+              19.139338
+            ],
+            [
+              100.833587,
+              19.139437
+            ],
+            [
+              100.833145,
+              19.139189
+            ],
+            [
+              100.833158,
+              19.138586
+            ],
+            [
+              100.833308,
+              19.138375
+            ],
+            [
+              100.832638,
+              19.13823
+            ],
+            [
+              100.831811,
+              19.138497
+            ],
+            [
+              100.831822,
+              19.139129
+            ],
+            [
+              100.831981,
+              19.139317
+            ],
+            [
+              100.833182,
+              19.139774
+            ],
+            [
+              100.83327,
+              19.139827
+            ],
+            [
+              100.833282,
+              19.139961
+            ],
+            [
+              100.833912,
+              19.140046
+            ],
+            [
+              100.83394,
+              19.14003
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-056",
+        "candidate_id": "LOSS-TWP-056",
+        "label_class": "G3",
+        "clearing_date": "2025",
+        "notes": "LDD2567:A305 (Teak) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2025",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 54,
+        "area_rai": 15.09,
+        "pure_pixels": 169,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A305",
+        "ldd_lu_des_en": "Teak",
+        "ldd_lu_des_th": "สัก"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.837603,
+              19.103095
+            ],
+            [
+              100.837139,
+              19.103198
+            ],
+            [
+              100.836786,
+              19.103603
+            ],
+            [
+              100.836871,
+              19.103665
+            ],
+            [
+              100.836896,
+              19.103844
+            ],
+            [
+              100.836682,
+              19.104146
+            ],
+            [
+              100.836642,
+              19.10444
+            ],
+            [
+              100.836765,
+              19.104585
+            ],
+            [
+              100.836902,
+              19.105328
+            ],
+            [
+              100.836813,
+              19.105706
+            ],
+            [
+              100.836914,
+              19.106023
+            ],
+            [
+              100.837212,
+              19.105963
+            ],
+            [
+              100.83754,
+              19.105814
+            ],
+            [
+              100.837457,
+              19.105106
+            ],
+            [
+              100.837611,
+              19.104323
+            ],
+            [
+              100.838146,
+              19.103986
+            ],
+            [
+              100.838507,
+              19.103915
+            ],
+            [
+              100.838515,
+              19.103756
+            ],
+            [
+              100.837708,
+              19.103591
+            ],
+            [
+              100.837671,
+              19.103169
+            ],
+            [
+              100.837603,
+              19.103095
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "LOSS-TWP-060",
+        "candidate_id": "LOSS-TWP-060",
+        "label_class": "G3",
+        "clearing_date": "2025",
+        "notes": "LDD2567:A305 (Teak) | ldd_2567_parcel",
+        "pool_name": "LOSS_POST2020",
+        "district": "Tha Wang Pha",
+        "seed_source": "hansen",
+        "lossyear": "2025",
+        "radd_date": "none",
+        "jrc_forest2020": 0,
+        "treecover2000": 54,
+        "area_rai": 17.6,
+        "pure_pixels": 194,
+        "size_bin": "large_10plus_rai",
+        "is_small_plot": false,
+        "ldd_lu_code": "A305",
+        "ldd_lu_des_en": "Teak",
+        "ldd_lu_des_th": "สัก"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+# Changing any value after the G1 lock must be logged as post-hoc.
+
+version: "v1.0"
+cutoff_date: "2020-12-31"
+
+crs:
+  storage: "EPSG:4326"
+  metric: "EPSG:32647"
+
+window:
+  pre_cutoff:
+    start: "2015-01-01"
+    end: "2020-12-31"
+  post_cutoff:
+    start: "2021-01-01"
+    end: "2025-12-31"
+
+train_districts:
+  - "Mae Charim"
+  - "Pua"
+  - "Tha Wang Pha"
+
+# Blind DATA never enters the repo (Gate G2).
+blind_districts:
+  - "Wiang Sa"
+  - "Santi Suk"
+
+classes:
+  G1: "NEW_DEFORESTATION"
+  G2: "EXISTING_CROPLAND"
+  G3: "PLANTATION_HARVEST"
+  G4: "INTACT_FOREST"
+
+plot_geometry:
+  inward_buffer_m: 10
+  min_area_rai: 3
+  min_pure_pixels: 9
+
+triage_thresholds:
+  module_a_conf: 0.70
+  cutoff_buffer_days: 30
+
+targets:
+  recall_g1: 0.85
+  fpr_g2_g4: 0.10
+  cutoff_accuracy: 0.90
+  median_date_error_days: 30
+  sec_per_plot: 30
