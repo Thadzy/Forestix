@@ -40,10 +40,9 @@ def train(features: pd.DataFrame, labels: pd.Series, spec: dict[str, Any] | None
             (
                 "rf",
                 RandomForestClassifier(
-                    n_estimators=300,
+                    n_estimators=400,
                     max_depth=6,
                     min_samples_leaf=2,
-                    class_weight="balanced",
                     random_state=42,
                 ),
             ),

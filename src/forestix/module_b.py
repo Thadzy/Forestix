@@ -43,8 +43,8 @@ def detect_break(
     pre_ndvi = float(s2_pre["ndvi"].median()) if not s2_pre.empty else float("nan")
     pre_nbr = float(s2_pre["nbr"].median()) if not s2_pre.empty else float("nan")
 
-    # Compute optical drops per post-cutoff month
-    opt_break_ym: str | None = None
+    # Compute optical candidate break months
+    opt_candidates: list[str] = []
     min_dndvi = 0.0
     min_dnbr = 0.0
     if not s2_post.empty and not np.isnan(pre_nbr):
@@ -53,13 +53,12 @@ def detect_break(
         min_dndvi = float(dndvis.quantile(0.10))
         min_dnbr = float(dnbrs.quantile(0.10))
         triggered = s2_post[(dnbrs <= dnbr_thresh) & (dndvis <= dndvi_thresh)]
-        if not triggered.empty:
-            opt_break_ym = str(triggered.iloc[0]["ym"])
+        opt_candidates = [str(ym) for ym in triggered["ym"].tolist()]
 
-    # Compute SAR drops per orbit separately (SA-2 Late Fusion)
+    # Compute SAR candidate break months per orbit separately (SA-2 Late Fusion)
     s1 = s1_plot.copy()
     s1["vh"] = pd.to_numeric(s1["vh"], errors="coerce")
-    sar_break_yms: list[str] = []
+    sar_candidates: list[str] = []
     min_dvh = 0.0
     for orbit in ("ASCENDING", "DESCENDING"):
         orb = s1[s1["orbit"] == orbit].dropna(subset=["vh"])
@@ -72,30 +71,39 @@ def detect_break(
         q10 = float(dvhs.quantile(0.10))
         if q10 < min_dvh:
             min_dvh = q10
-        # Require 2 consecutive months below threshold to avoid single-pass speckle false alarms
         below = (dvhs <= dvh_thresh).values
         for i in range(len(below) - 1):
             if below[i] and below[i + 1]:
-                sar_break_yms.append(str(orb_post.iloc[i]["ym"]))
-                break
+                sar_candidates.append(str(orb_post.iloc[i]["ym"]))
 
-    sar_break_ym = min(sar_break_yms) if sar_break_yms else None
+    opt_set = set(opt_candidates)
+    sar_set = set(sar_candidates)
+    all_candidates = sorted(opt_set | sar_set)
 
-    if opt_break_ym and sar_break_ym:
-        chosen_ym = min(opt_break_ym, sar_break_ym)
-        sensor = "both"
-    elif opt_break_ym:
-        chosen_ym = opt_break_ym
-        sensor = "optical"
-    elif sar_break_ym:
-        chosen_ym = sar_break_ym
-        sensor = "radar"
-    else:
-        chosen_ym = None
+    # Pick the earliest candidate break month that passes persistence_check (avoids
+    # getting trapped by an earlier transient dry-season dip before real clearing).
+    chosen_ym: str | None = None
+    persists = False
+    for ym in all_candidates:
+        if persistence_check(s2_plot, s1_plot, f"{ym}-15", spec):
+            chosen_ym = ym
+            persists = True
+            break
+
+    if chosen_ym is None and all_candidates:
+        chosen_ym = all_candidates[0]
+        persists = False
+
+    if chosen_ym is None:
         sensor = "none"
+    elif chosen_ym in opt_set and chosen_ym in sar_set:
+        sensor = "both"
+    elif chosen_ym in opt_set:
+        sensor = "optical"
+    else:
+        sensor = "radar"
 
     break_date = f"{chosen_ym}-15" if chosen_ym else None
-    persists = persistence_check(s2_plot, s1_plot, break_date, spec)
 
     return {
         "break_date": break_date,

@@ -5158,5 +5158,54 @@
     "pure_pixels": 129,
     "size_bin": "large_10plus_rai",
     "is_small_plot": false
+  },
+  "LOSS-MC-041": {
+    "candidate_id": "LOSS-MC-041",
+    "status": "labeled",
+    "label_class": "G1",
+    "clearing_date": "2023",
+    "notes": "auto_map_proxy (hansen)",
+    "polygon_ring": [
+      [
+        100.997167,
+        18.805251
+      ],
+      [
+        100.996867,
+        18.804977
+      ],
+      [
+        100.996899,
+        18.804493
+      ],
+      [
+        100.997085,
+        18.804281
+      ],
+      [
+        100.997368,
+        18.804132
+      ],
+      [
+        100.99763,
+        18.804329
+      ],
+      [
+        100.997639,
+        18.804677
+      ],
+      [
+        100.997471,
+        18.805079
+      ],
+      [
+        100.997167,
+        18.805251
+      ]
+    ],
+    "area_rai": 4.5,
+    "pure_pixels": 43,
+    "size_bin": "medium_3_5rai",
+    "is_small_plot": false
   }
 }
